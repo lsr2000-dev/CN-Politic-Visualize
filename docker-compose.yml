@@ -1,0 +1,77 @@
+name: polvis
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    container_name: polvis-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: polvis
+      POSTGRES_USER: polvis
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-polvis}
+      TZ: Asia/Shanghai
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/initdb:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U polvis -d polvis"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    container_name: polvis-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build:
+      context: ./backend
+    container_name: polvis-api
+    restart: unless-stopped
+    environment:
+      POLVIS_ENVIRONMENT: prod
+      POLVIS_DATA_MODE: postgres
+      POLVIS_DATABASE_URL: postgresql+psycopg://polvis:${POSTGRES_PASSWORD:-polvis}@postgres:5432/polvis
+      POLVIS_REDIS_URL: redis://redis:6379/0
+      POLVIS_CORS_ORIGINS: http://localhost:${WEB_PORT:-8080}
+      POLVIS_CACHE_TTL_SECONDS: 900
+      TZ: Asia/Shanghai
+    ports:
+      - "${API_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 25s
+
+  web:
+    build:
+      context: ./frontend
+    container_name: polvis-web
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  redisdata:
