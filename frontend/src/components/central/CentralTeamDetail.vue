@@ -4,6 +4,7 @@ import AppIcon from "@/components/ui/AppIcon.vue";
 import PartyRoleBadge from "@/components/central/PartyRoleBadge.vue";
 import CentralCommitteeBadge from "@/components/central/CentralCommitteeBadge.vue";
 import { useCentralStore } from "@/stores/central";
+import { useAppStore } from "@/stores/app";
 import { useMapStore } from "@/stores/map";
 import { useTimelineStore } from "@/stores/timeline";
 import { showCentralCommittee, visiblePartyRoles, partyRankLevel } from "@/utils/partyRoles";
@@ -12,10 +13,12 @@ import type { CentralInstitution } from "@/types";
 const emit = defineEmits<{ (event: "close"): void }>();
 
 const central = useCentralStore();
+const app = useAppStore();
 const map = useMapStore();
 const timeline = useTimelineStore();
 
 const teamLabel = computed(() => {
+  if (central.selectedTeam === "party") return "中国共产党中央委员会";
   if (central.selectedTeam === "other") return "其他中央机构";
   return central.overview?.teams[central.selectedTeam ?? ""]?.label ?? "中央机构";
 });
@@ -31,9 +34,9 @@ const termAnchors = computed(() => {
     ];
   }
   return [
-    { label: "十八届", date: "2012-11-08" },
+    { label: "十八届", date: "2012-11-15" },
     { label: "十九届", date: "2017-10-25" },
-    { label: "二十届", date: "2022-10-16" },
+    { label: "二十届", date: "2022-10-23" },
   ];
 });
 function activeTerm(date: string): boolean {
@@ -42,103 +45,77 @@ function activeTerm(date: string): boolean {
   const next = termAnchors.value[index + 1]?.date;
   return current >= date && (!next || current < next);
 }
-const partyGroupLabels: Record<string, string> = {
-  leadership: "中央领导机构",
-  office: "中央办公厅",
-  functional: "党中央职能部门",
-  affairs: "党中央办事机构",
-  outpost: "中央派出机关",
-  affiliate: "中央直属事业单位",
-  subordinate: "中央直属机关下属机构",
+const partyGroupLabels = computed(() => app.vocabulary?.party_categories ?? {});
+const groupLabels = computed(() => app.vocabulary?.group_labels ?? {});
+const partyGroupOrder = [
+  "composition",
+  "leaders",
+  "standing",
+  "working",
+  "departments",
+  "discipline",
+  "affairs",
+  "outpost",
+  "affiliate",
+  "subordinate",
+];
+const partyGroupNames: Record<string, string> = {
+  composition: "组成人员",
+  leaders: "领导人员",
+  standing: "常设机构",
+  working: "工作机构",
+  departments: "职能部门",
+  discipline: "纪律检查机关",
+  affairs: "办事机构",
+  outpost: "派出机关",
+  affiliate: "直属事业单位",
+  subordinate: "直属机关下属机构",
 };
-const partyGroupOrder = ["leadership", "office", "functional", "affairs", "outpost", "affiliate", "subordinate"];
-async function selectTerm(date: string): Promise<void> {
+const partyItemOrder: Record<string, string[]> = {
+  composition: ["party:central_committee"],
+  leaders: ["party:general_secretary"],
+  standing: ["party:politburo_standing", "party:politburo", "party:secretariat"],
+  working: ["party:general_office"],
+};
+function partyGroupKey(institution: CentralInstitution): string {
+  if (institution.id === "party:central_committee") return "composition";
+  if (institution.id === "party:general_secretary") return "leaders";
+  if (["party:politburo_standing", "party:politburo", "party:secretariat"].includes(institution.id)) {
+    return "standing";
+  }
+  if (institution.id === "party:general_office" || institution.party_category === "office") {
+    return "working";
+  }
+  if (institution.party_category === "functional") return "departments";
+  if (institution.id === "party:discipline") return "discipline";
+  return institution.party_category || institution.group_type || "other";
+}
+function partyItemRank(institution: CentralInstitution, key: string): number {
+  const order = partyItemOrder[key] ?? [];
+  const index = order.indexOf(institution.id);
+  return index >= 0 ? index : 999;
+}
+function selectTerm(date: string): void {
   timeline.setDate(date);
-  if (central.selectedTeam) await central.openTeam(central.selectedTeam, date);
 }
 function partyCategoryLabel(institution: CentralInstitution): string {
-  if (central.selectedTeam === "party" && institution.party_category) {
-    return partyGroupLabels[institution.party_category] ?? institution.party_category;
+  if (institution.id === "party:central_committee") return "权力机关";
+  if (central.selectedTeam === "party") {
+    const key = partyGroupKey(institution);
+    return partyGroupNames[key] ?? partyGroupLabels.value[key] ?? key;
   }
   return typeLabel(institution.institution_type, institution.name);
 }
-const groupLabels: Record<string, string> = {
-  party: "党中央",
-  congress: "全国人大",
-  government: "国务院",
-  cppcc: "全国政协",
-  judicial: "两高",
-  mass: "群团",
-  military: "军委",
-  supervision: "纪委监委",
-  deliberative: "议事协调",
-  other: "其他中央机构",
-  leadership: "领导机构",
-  ministry: "国务院组成部门",
-  agency: "国务院直属机构",
-  office: "国务院办事机构",
-  public_institution: "国务院直属事业单位",
-  special: "国务院特设机构",
-  committee: "专门委员会",
-  affiliate: "中央直属事业单位",
-  party_affairs: "中央办事机构",
-  party_outpost: "中央派出机关",
-  party_subordinate: "中央直属机关下属机构",
-  administration: "国务院直属机构（副部级）",
-  admin_bureau_group: "国务院部委管理的国家局",
-  admin_bureau: "国务院部委管理的国家局",
-  outpost_group: "国务院派出机构",
-  outpost: "国务院派出机构",
-};
-const rankLabels: Record<string, string> = {
-  national_leader: "正国级",
-  vice_national_leader: "副国级",
-  ministerial: "正部级",
-  vice_ministerial: "副部级",
-  departmental: "正地厅级",
-  bureau: "局级",
-};
-const typeLabels: Record<string, string> = {
-  state_council_leadership: "国务院领导",
-  ministry: "组成部门",
-  ministry_group: "组成部门",
-  agency: "直属机构",
-  agency_group: "直属机构",
-  service: "办事机构",
-  institution: "直属事业单位",
-  special: "特设机构",
-  commission: "专门委员会",
-  administration: "国务院直属机构",
-  office: "国务院办事机构",
-  public_institution: "国务院直属事业单位",
-  admin_bureau: "部委管理的国家局",
-  outpost: "国务院派出机构",
-  academy: "军事院校",
-  armed_police: "武警部队",
-  court: "人民法院",
-  procuratorate: "人民检察院",
-  cppcc_committee: "政协专门委员会",
-  cppcc_leadership: "政协领导",
-  deliberative_committee: "议事协调机构",
-  deliberative_office: "议事协调办公室",
-  mass_organization: "群团组织",
-  military_agency: "军委机关",
-  military_leadership: "军委领导",
-  npc_committee: "人大专门委员会",
-  npc_leadership: "全国人大领导",
-  party_affiliate: "中央直属事业单位",
-  party_outpost: "中央派出机关",
-  party_subordinate: "中央直属机关下属机构",
-  party_agency: "中央工作机关",
-  party_leadership: "党中央领导",
-  theater: "战区",
-};
 function rankLabel(value: string): string {
-  return rankLabels[value] ?? value;
+  return app.vocabulary?.ranks[value] ?? value;
 }
 function displayRank(institution: CentralInstitution): string {
   const override = institution.leaders.find((leader) => leader.rank_override)?.rank_override;
   return rankLabel(override ?? institution.institution_rank);
+}
+function cardMeta(institution: CentralInstitution): string {
+  if (institution.id === "party:central_committee") return "权力机关";
+  return `${displayRank(institution)} · ${partyCategoryLabel(institution)}`;
 }
 function leaderRank(leader: CentralInstitution["leaders"][number], institution: CentralInstitution): string {
   const partyLevel = partyRankLevel(leader.party_roles);
@@ -153,9 +130,10 @@ function typeLabel(value: string, name = ""): string {
     if (name.endsWith("局")) return "直属国家局";
     if (name.endsWith("署")) return "直属国家署";
   }
-  return typeLabels[value] ?? value;
+  return app.vocabulary?.institution_types[value]?.short ?? value;
 }
 function fullTitle(institution: CentralInstitution, title: string): string {
+  if (institution.id === "party:general_secretary") return institution.name;
   if (institution.institution_type === "state_council_leadership") {
     if (institution.name.endsWith(title)) return institution.name;
     return `${institution.short_name || institution.name}${title}`;
@@ -183,7 +161,7 @@ const groups = computed(() => {
   for (const institution of central.org?.institutions ?? []) {
     if (institution.institution_type === "group" || institution.institution_type.endsWith("_group")) continue;
     const key = central.selectedTeam === "party"
-      ? institution.party_category || institution.group_type || "other"
+      ? partyGroupKey(institution)
       : institution.group_type || "other";
     if (!byKey.has(key)) byKey.set(key, []);
     byKey.get(key)!.push(institution);
@@ -193,12 +171,17 @@ const groups = computed(() => {
     entries.sort((a, b) => partyGroupOrder.indexOf(a[0]) - partyGroupOrder.indexOf(b[0]));
   }
   for (const [key, items] of entries) {
+    if (central.selectedTeam === "party") {
+      items.sort((a, b) => partyItemRank(a, key) - partyItemRank(b, key) || a.sort_order - b.sort_order);
+    } else {
+      items.sort((a, b) => a.sort_order - b.sort_order);
+    }
     result.push({
       key,
       label: central.selectedTeam === "party"
-        ? partyGroupLabels[key] ?? groupLabels[key] ?? key
-        : groupLabels[key] ?? key,
-      items: items.sort((a, b) => a.sort_order - b.sort_order),
+        ? partyGroupNames[key] ?? partyGroupLabels.value[key] ?? groupLabels.value[key] ?? key
+        : groupLabels.value[key] ?? key,
+      items,
     });
   }
   return result;
@@ -207,6 +190,13 @@ const groups = computed(() => {
 function open(institution: CentralInstitution): void {
   map.selectRegion(null);
   void central.selectInstitution(institution, timeline.currentDate);
+}
+function cardMembers(institution: CentralInstitution): CentralInstitution["leaders"] {
+  return institution.roster_members?.length
+    ? institution.roster_members
+    : institution.elected_members?.length
+      ? institution.elected_members
+      : institution.leaders;
 }
 </script>
 
@@ -256,11 +246,13 @@ function open(institution: CentralInstitution): void {
               v-for="institution in group.items"
               :key="institution.id"
               class="central-team-row"
+              :class="{ 'central-team-row-active': central.selectedInstitution?.id === institution.id }"
               @click="open(institution)"
             >
               <div class="min-w-0 flex-1">
-                <div class="text-[11px] text-paper">
-                  {{ institution.name }}
+                <div class="flex items-center gap-1 text-[11px] text-paper">
+                  <span class="truncate">{{ institution.name }}</span>
+                  <span v-if="central.detailLoading && central.selectedInstitution?.id === institution.id" class="text-[8px] text-gold">加载中…</span>
                   <span
                     v-if="institution.verification_status === 'provisional'"
                     class="ml-1 rounded border border-amber-400/30 px-1 py-px text-[8px] text-amber-300/90"
@@ -269,15 +261,25 @@ function open(institution: CentralInstitution): void {
                     v-else-if="institution.verification_status === 'unverified'"
                     class="ml-1 rounded border border-white/15 px-1 py-px text-[8px] text-paper-faint"
                   >未核验</span>
+                  <span
+                    v-if="institution.composition"
+                    class="ml-auto flex shrink-0 items-baseline gap-0.5 text-paper-dim"
+                    :title="`机构委员人数：${institution.composition.current} 人`"
+                    :aria-label="`机构委员人数：${institution.composition.current} 人`"
+                  >
+                    <span class="text-[12px] font-medium tabular-nums">{{ institution.composition.display }}</span>
+                    <span class="text-[10px] text-paper-faint">人</span>
+                  </span>
                 </div>
                 <div class="mt-0.5 text-[8px] tracking-wide text-paper-faint">
-                  {{ displayRank(institution) }} · {{ partyCategoryLabel(institution) }}
+                  {{ cardMeta(institution) }}
                 </div>
-                <div v-if="institution.leaders.length" class="mt-1 space-y-0.5">
+                <div v-if="cardMembers(institution).length" class="mt-1 space-y-0.5">
                   <div
-                    v-for="leader in institution.leaders"
+                    v-for="leader in cardMembers(institution)"
                     :key="leader.name + leader.title"
                     class="central-team-leader"
+                    :class="{ 'central-team-expelled': leader.member_status === 'expelled' }"
                   >
                     <span class="leader-name text-[10px] text-paper-dim">{{ leader.name }}</span>
                     <div class="leader-content">
@@ -291,14 +293,41 @@ function open(institution: CentralInstitution): void {
                         :committee="leader.central_committee"
                         compact
                       />
+                      <span
+                        v-if="leader.member_status_label"
+                        class="whitespace-nowrap rounded border px-1 py-px text-[8px]"
+                        :class="leader.member_status === 'added'
+                          ? 'border-gold/45 bg-gold/10 text-gold'
+                          : 'border-vermilion/40 bg-vermilion/10 text-vermilion-bright'"
+                      >{{ leader.member_status_label }}</span>
                     </div>
                   </div>
                 </div>
-                <div v-else-if="isNotYetCreated(institution)" class="mt-1 text-[9px] text-paper-faint">
-                  {{ institution.created_at ? `${createdLabel(institution)} 组建，当前时点尚未设立` : `历史数据自 ${createdLabel(institution)} 起` }}
+                <div v-if="institution.membership_changes?.length" class="mt-1.5 space-y-1 border-t border-white/[0.06] pt-1.5">
+                  <div v-for="change in institution.membership_changes" :key="change.label">
+                    <div
+                      class="text-[8px] tracking-wide"
+                      :class="change.change_type === 'removed' ? 'text-vermilion-bright/80' : 'text-jade/80'"
+                    >{{ change.label }}</div>
+                    <div class="mt-0.5 flex flex-wrap gap-x-2 gap-y-0.5">
+                      <span
+                        v-for="name in change.members"
+                        :key="name"
+                        class="text-[9px]"
+                        :class="change.change_type === 'removed'
+                          ? 'text-paper-faint/55 line-through'
+                          : 'text-paper-dim'"
+                      >{{ name }}</span>
+                    </div>
+                  </div>
                 </div>
-                <div v-else-if="isAbolished(institution)" class="mt-1 text-[9px] text-paper-faint">该机构已撤销</div>
-                <div v-else class="mt-1 text-[9px] text-paper-faint">正职空缺</div>
+                <template v-if="!cardMembers(institution).length">
+                  <div v-if="isNotYetCreated(institution)" class="mt-1 text-[9px] text-paper-faint">
+                    {{ institution.created_at ? `${createdLabel(institution)} 组建，当前时点尚未设立` : `历史数据自 ${createdLabel(institution)} 起` }}
+                  </div>
+                  <div v-else-if="isAbolished(institution)" class="mt-1 text-[9px] text-paper-faint">该机构已撤销</div>
+                  <div v-else-if="institution.id === 'party:central_committee'" class="mt-1 text-[9px] text-paper-faint">集体领导机构 · 总书记单列</div>
+                </template>
               </div>
               <AppIcon name="chevron-right" :size="12" class="shrink-0 text-paper-faint" />
             </button>
@@ -326,6 +355,11 @@ function open(institution: CentralInstitution): void {
   border-color: rgba(176, 138, 74, 0.4);
   background: rgba(176, 138, 74, 0.05);
 }
+.central-team-row-active {
+  border-color: rgba(176, 138, 74, 0.65);
+  background: rgba(176, 138, 74, 0.1);
+  box-shadow: inset 2px 0 0 rgba(176, 138, 74, 0.8);
+}
 .central-team-leader {
   display: flex;
   align-items: flex-start;
@@ -350,5 +384,13 @@ function open(institution: CentralInstitution): void {
   line-height: 1.5;
   white-space: normal;
   word-break: break-word;
+}
+.central-team-expelled .leader-name,
+.central-team-expelled .leader-title {
+  text-decoration: line-through;
+  color: rgba(232, 224, 205, 0.38);
+}
+.central-team-expelled .leader-content {
+  opacity: 0.68;
 }
 </style>

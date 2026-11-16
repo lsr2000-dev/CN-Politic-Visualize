@@ -47,6 +47,16 @@ body {
   background: transparent;
 }
 
+/* Reserve scrollbar width for every scroll container in the app so panels,
+   drawers and filtered lists do not shift when a scrollbar appears. */
+* {
+  scrollbar-gutter: stable;
+}
+
+.overflow-y-auto {
+  scrollbar-gutter: stable;
+}
+
 @layer components {
   .glass {
     background: linear-gradient(160deg, rgba(22, 29, 38, 0.92), rgba(13, 17, 23, 0.96));

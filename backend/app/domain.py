@@ -4,6 +4,8 @@ from dataclasses import dataclass, field
 from datetime import date, timedelta
 from typing import Any
 
+from .core.vocabulary import PERSON_STATUS, RANKS
+
 CATEGORY_META: dict[str, dict[str, Any]] = {
     "party": {"label": "党委", "order": 1, "accent": "#c0392b"},
     "congress": {"label": "人大", "order": 2, "accent": "#2c5f8a"},
@@ -13,26 +15,9 @@ CATEGORY_META: dict[str, dict[str, Any]] = {
 }
 CATEGORY_ORDER = ["party", "congress", "government", "cppcc"]
 
-RANK_LABELS: dict[str, str] = {
-    "national_leader": "正国级",
-    "vice_national_leader": "副国级",
-    "ministerial": "正部级",
-    "vice_ministerial": "副部级",
-    "provincial_principal": "正省部级",
-    "provincial_deputy": "副省部级",
-    "bureau": "正厅级",
-    "unknown": "级别待考",
-}
+RANK_LABELS: dict[str, str] = dict(RANKS)
 
-STATUS_LABELS: dict[str, str] = {
-    "active": "在职",
-    "retired": "退休",
-    "under_investigation": "接受审查",
-    "expelled": "已被开除",
-    "deceased": "病逝",
-    "left": "已离任",
-    "unknown": "待补充",
-}
+STATUS_LABELS: dict[str, str] = dict(PERSON_STATUS)
 
 END_REASON_LABELS: dict[str, str] = {
     "promotion": "提拔",

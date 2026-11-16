@@ -139,6 +139,16 @@ function cycleSpeed(): void {
     </div>
 
     <!-- ruler -->
+    <div class="flex items-center gap-3 px-5 pb-1 text-[9px] text-paper-faint/80">
+      <span class="inline-flex items-center gap-1">
+        <span class="h-1.5 w-1.5 rotate-45 border border-gold/70 bg-ink-900" />
+        中央全会
+      </span>
+      <span class="inline-flex items-center gap-1">
+        <span class="h-1.5 w-1.5 rounded-full border border-sky-300/80 bg-sky-400/20" />
+        全国人大
+      </span>
+    </div>
     <div class="px-5 pb-3">
       <div
         ref="track"
@@ -183,6 +193,7 @@ function cycleSpeed(): void {
           v-for="event in timeline.eventMarkers"
           :key="event.date"
           class="group absolute top-[12px] z-10 -translate-x-1/2 p-2"
+          :class="{ 'event-marker--npc': event.type === 'npc' }"
           :style="{ left: `${event.ratio * 100}%` }"
           :aria-label="`${event.label} ${event.date}`"
           @pointerdown.stop
@@ -190,11 +201,13 @@ function cycleSpeed(): void {
         >
           <span
             class="block h-2 w-2 rotate-45 border border-gold/70 bg-ink-900 transition group-hover:border-gold group-hover:bg-gold"
+            :class="event.type === 'npc' ? 'event-dot--npc' : ''"
           />
           <span
             class="pointer-events-none absolute bottom-full left-1/2 mb-1 hidden -translate-x-1/2 whitespace-nowrap rounded border border-white/10 bg-ink-800/95 px-2 py-1 text-[10px] text-paper-dim shadow-panel group-hover:block"
           >
-            {{ event.label }} · {{ formatDate(event.date, "YYYY.MM") }}
+            <span :class="event.type === 'npc' ? 'text-sky-300' : 'text-gold'">{{ event.type === 'npc' ? '人大' : '全会' }}</span>
+            · {{ event.label }} · {{ formatDate(event.date, "YYYY.MM") }}
           </span>
         </button>
 
@@ -229,3 +242,16 @@ function cycleSpeed(): void {
     </div>
   </div>
 </template>
+
+<style scoped>
+.event-marker--npc .event-dot--npc {
+  transform: none;
+  border-radius: 999px;
+  border-color: rgba(125, 211, 252, 0.85);
+  background: rgba(14, 165, 233, 0.18);
+}
+.event-marker--npc:hover .event-dot--npc {
+  border-color: #7dd3fc;
+  background: #38bdf8;
+}
+</style>

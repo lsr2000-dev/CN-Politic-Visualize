@@ -25,6 +25,8 @@ def canonical_title(institution: dict, title: str) -> str:
     if inst_id in {"party:politburo_standing", "party:politburo"}:
         return f"中央{title}"
     if inst_id == "party:secretariat":
+        if title == "书记处书记":
+            return "中央书记处书记"
         return f"中央书记处{title}" if not title.startswith("中央") else title
     if inst_id == "party:discipline":
         return f"中央纪委{title}" if not title.startswith("中央") else title
@@ -185,6 +187,7 @@ def main() -> None:
         seen_roles.add(key)
         unique_tenures.append(tenure)
     tenures = unique_tenures
+
     used_position_ids = {tenure["position_id"] for tenure in tenures}
     positions = [
         position for position in positions
@@ -196,7 +199,7 @@ def main() -> None:
 
     identities = [
         item for item in data.get("identities", [])
-        if item.get("source") != "central_import"
+        if item.get("source") not in {"central_import", "central_import_implied"}
     ]
     identity_keys = {
         (item["person_id"], item["term"], item["role"], item.get("start_date"))
@@ -213,6 +216,30 @@ def main() -> None:
         if not identity_institution:
             continue
         for leader in institution.get("leaders", []):
+            if identity_institution == "discipline_secretary":
+                officer_id = leader.get("officer_id")
+                start = leader.get("start_date") or ""
+                term = 17 if start < "2012-11-15" else (
+                    18 if start < "2017-10-25" else (19 if start < "2022-10-23" else 20)
+                )
+                term_label = {17: "十七届", 18: "十八届", 19: "十九届", 20: "二十届"}.get(term, f"{term}届")
+                key = (officer_id, term, "discipline_secretary", start)
+                if officer_id and key not in identity_keys:
+                    identities.append({
+                        "id": next_identity_id,
+                        "person_id": officer_id,
+                        "term": term,
+                        "term_label": term_label,
+                        "role": "discipline_secretary",
+                        "label": f"{term_label}中央纪委书记",
+                        "start_date": start,
+                        "end_date": leader.get("end_date"),
+                        "source": "central_import",
+                        "source_id": 1,
+                    })
+                    identity_keys.add(key)
+                    next_identity_id += 1
+                continue
             for role in leader.get("party_roles", []):
                 if role.get("role") != identity_institution:
                     continue
@@ -232,14 +259,50 @@ def main() -> None:
                     "start_date": leader.get("start_date"),
                     "end_date": leader.get("end_date"),
                     "source": "central_import",
+                    "source_id": 1,
                 })
                 identity_keys.add(key)
                 next_identity_id += 1
+    implied_keys = set(identity_keys)
+    for item in list(identities):
+        if item.get("role") != "politburo_standing":
+            continue
+        key = (item["person_id"], item["term"], "politburo_member", item.get("start_date"))
+        if key in implied_keys:
+            continue
+        identities.append({
+            "id": next_identity_id,
+            "person_id": item["person_id"],
+            "term": item["term"],
+            "term_label": item.get("term_label"),
+            "role": "politburo_member",
+            "label": f"{item.get('term_label') or ''}中央政治局委员",
+            "start_date": item.get("start_date"),
+            "end_date": item.get("end_date"),
+            "source": "central_import_implied",
+            "source_id": 1,
+        })
+        implied_keys.add(key)
+        next_identity_id += 1
+    consolidated: dict[tuple[int, int, str], dict] = {}
+    for item in identities:
+        key = (item["person_id"], item["term"], item["role"])
+        previous = consolidated.get(key)
+        if previous is None:
+            consolidated[key] = item
+            continue
+        previous["start_date"] = min(previous["start_date"], item["start_date"])
+        if previous.get("end_date") is None or item.get("end_date") is None:
+            previous["end_date"] = None
+        else:
+            previous["end_date"] = max(previous["end_date"], item["end_date"])
+    identities = list(consolidated.values())
     data["identities"] = identities
     data["organizations"] = central["institutions"]
     data["central_memberships"] = central.get("memberships", {})
     data["central_party_roles"] = central.get("party_roles", {})
     data["central_terms"] = central.get("terms", [])
+    data["central_term_composition"] = central.get("term_composition", {})
 
     DATASET.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(

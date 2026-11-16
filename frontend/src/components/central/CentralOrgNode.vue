@@ -3,7 +3,10 @@ import { computed } from "vue";
 import CentralCommitteeBadge from "./CentralCommitteeBadge.vue";
 import PartyRoleBadge from "./PartyRoleBadge.vue";
 import { showCentralCommittee, visiblePartyRoles } from "@/utils/partyRoles";
+import { useAppStore } from "@/stores/app";
 import type { CentralInstitution } from "@/types";
+
+const app = useAppStore();
 
 const props = defineProps<{
   node: CentralInstitution;
@@ -25,15 +28,7 @@ function fullTitle(title: string): string {
   return isDepartment && !title.startsWith(props.node.name) ? `${props.node.name}${title}` : title;
 }
 function rankLabel(value: string): string {
-  const labels: Record<string, string> = {
-    national_leader: "正国级",
-    vice_national_leader: "副国级",
-    ministerial: "正部级",
-    vice_ministerial: "副部级",
-    departmental: "正地厅级",
-    bureau: "局级",
-  };
-  return labels[value] ?? value;
+  return app.vocabulary?.ranks[value] ?? value;
 }
 </script>
 

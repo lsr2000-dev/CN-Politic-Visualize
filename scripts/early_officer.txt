@@ -1,0 +1,17 @@
+{
+ "id": 298,
+ "slug": "p298",
+ "name": "柯俊",
+ "gender": "M",
+ "birth_year": 1917,
+ "native_place": "长春市",
+ "ethnicity": "汉族",
+ "party_join_date": null,
+ "work_start_date": null,
+ "education": null,
+ "degree": null,
+ "school": null,
+ "bio": null,
+ "portrait_url": null,
+ "is_deceased": false
+}

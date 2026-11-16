@@ -32,7 +32,7 @@ def test_meta() -> None:
     assert body["dataset"]["id"] == "2026.10"
     assert body["dataset"]["coverage_end"] == "2026-10-29"
     assert len(body["categories"]) == 4
-    assert body["events"][0]["date"] == "2012-11-08"
+    assert body["events"][0]["date"] == "2012-11-15"
     assert any(event["date"] == "2026-10-29" for event in body["events"])
 
 

@@ -11,6 +11,7 @@ import type {
   RegionTimelineResponse,
   SeatHistoryResponse,
   SnapshotResponse,
+  Vocabulary,
 } from "@/types";
 
 export const API_BASE = import.meta.env.VITE_API_BASE ?? "/api/v1";
@@ -86,6 +87,15 @@ export async function getSnapshot(
       if (oldest) snapshotCache.delete(oldest);
     }
     return response.data;
+  } catch (error) {
+    throw normalizeError(error);
+  }
+}
+
+export async function getVocabulary(signal?: AbortSignal): Promise<Vocabulary> {
+  try {
+    const { data } = await http.get<Vocabulary>("/meta/vocabulary", { signal });
+    return data;
   } catch (error) {
     throw normalizeError(error);
   }
@@ -305,7 +315,7 @@ export async function getCentralInstitution(
 ): Promise<import("@/types").CentralInstitutionDetail> {
   try {
     const { data } = await http.get<import("@/types").CentralInstitutionDetail>(
-      `/central/institutions/${encodeURIComponent(id)}`,
+      `/institutions/central/${encodeURIComponent(id)}`,
       { params: { date }, signal },
     );
     return data;

@@ -25,32 +25,23 @@ const coverage = computed(() => directory.data?.coverage ?? null);
 const items = computed(() => directory.data?.items ?? []);
 const total = computed(() => directory.data?.total ?? 0);
 
-const rankOptions = [  ["national_leader", "正国级"],
-  ["vice_national_leader", "副国级"],
-  ["ministerial", "正部级"],
-  ["vice_ministerial", "副部级"],
-  ["provincial_principal", "正省部级"],
-  ["provincial_deputy", "副省部级"],
-  ["bureau", "正厅级"],
-  ["unknown", "级别待考"],
-] as const;
+const rankOptions = computed(() => {
+  const seen = new Set<string>();
+  return Object.entries(app.vocabulary?.ranks ?? {}).filter(([code, label]) => {
+    if (code === "unknown" || seen.has(label)) return false;
+    seen.add(label);
+    return true;
+  });
+});
 
 function displayRank(item: DirectoryItem): string {
   const level = partyRankLevel(item.party_roles);
-  if (level === "national_leader") return "正国级";
-  if (level === "vice_national_leader") return "副国级";
+  if (level === "national_leader") return app.vocabulary?.ranks.national_leader ?? "正国级";
+  if (level === "vice_national_leader") return app.vocabulary?.ranks.vice_national_leader ?? "副国级";
   return item.rank_label;
 }
 
-const statusOptions = [
-  ["active", "在职"],
-  ["retired", "退休"],
-  ["under_investigation", "接受审查"],
-  ["expelled", "已被开除"],
-  ["deceased", "病逝"],
-  ["left", "已离任"],
-  ["unknown", "待补充"],
-] as const;
+const statusOptions = computed(() => Object.entries(app.vocabulary?.person_status ?? {}));
 
 const categoryOptions = computed(() => app.meta?.categories ?? []);
 

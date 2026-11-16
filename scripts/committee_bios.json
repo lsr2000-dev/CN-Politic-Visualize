@@ -1,0 +1,954 @@
+{
+ "王万宾": {
+  "birth_year": 1949,
+  "native_place": "山西阳泉"
+ },
+ "王建平": {
+  "birth_year": 1953,
+  "native_place": "河北省赞皇县"
+ },
+ "王洪尧": {
+  "birth_year": 1951,
+  "native_place": "山东济宁"
+ },
+ "王冠中": {
+  "birth_year": 1953,
+  "native_place": "黑龙江省肇东市"
+ },
+ "王教成": {
+  "birth_year": 1952,
+  "native_place": "安徽来安"
+ },
+ "王新宪": {
+  "birth_year": 1954,
+  "native_place": "山西沁县"
+ },
+ "支树平": {
+  "birth_year": 1953,
+  "native_place": "山西省怀仁县"
+ },
+ "叶小文": {
+  "birth_year": 1950,
+  "native_place": "湖南宁乡"
+ },
+ "田中": {
+  "birth_year": 1956,
+  "native_place": "河北黄骅"
+ },
+ "田修思": {
+  "birth_year": 1950,
+  "native_place": "河南孟州"
+ },
+ "孙思敬": {
+  "birth_year": 1951,
+  "native_place": "山东青岛"
+ },
+ "杜金才": {
+  "birth_year": 1952,
+  "native_place": "河北景县"
+ },
+ "杜恒岩": {
+  "birth_year": 1951,
+  "native_place": "山东省龙口市"
+ },
+ "李东生": {
+  "birth_year": 1955,
+  "native_place": "山东省诸城市"
+ },
+ "杨金山": {
+  "birth_year": 1954,
+  "native_place": "河南息县"
+ },
+ "杨栋梁": {
+  "birth_year": 1954,
+  "native_place": "河北省青县"
+ },
+ "杨焕宁": {
+  "birth_year": 1957,
+  "native_place": "山东省安丘市"
+ },
+ "吴昌德": {
+  "birth_year": 1952,
+  "native_place": "江西大余"
+ },
+ "宋秀岩": {
+  "birth_year": 1955,
+  "native_place": "天津"
+ },
+ "张仕波": {
+  "birth_year": 1952,
+  "native_place": "浙江諸暨"
+ },
+ "戚建国": {
+  "birth_year": 1952,
+  "native_place": "山东文登"
+ },
+ "彭勇": {
+  "birth_year": 1954,
+  "native_place": "河北省卢龙县"
+ },
+ "解振华": {
+  "birth_year": 1949,
+  "native_place": "天津"
+ },
+ "褚益民": {
+  "birth_year": 1953,
+  "native_place": "江苏如皋长江镇"
+ },
+ "蔡英挺": {
+  "birth_year": 1954,
+  "native_place": "福建省石狮市"
+ },
+ "魏亮": {
+  "birth_year": 1953,
+  "native_place": "江苏高淳东坝镇下坝村"
+ },
+ "丁学东": {
+  "birth_year": 1960,
+  "native_place": "江苏常州"
+ },
+ "于忠福": {
+  "birth_year": 1956,
+  "native_place": "山东莱阳"
+ },
+ "王宁（武警）": {
+  "birth_year": 1913,
+  "native_place": "遂寧縣"
+ },
+ "王尔乘": {
+  "birth_year": 1955,
+  "native_place": "辽宁丹东"
+ },
+ "李玉赋": {
+  "birth_year": 1954,
+  "native_place": "江苏苏州"
+ },
+ "李传广": {
+  "birth_year": 1961,
+  "native_place": "山东青州"
+ },
+ "吴社洲": {
+  "birth_year": 1956,
+  "native_place": "湖北汉川"
+ },
+ "邱学强": {
+  "birth_year": 1957,
+  "native_place": "山东莘县"
+ },
+ "何平（解放军）": {
+  "birth_year": 1957,
+  "native_place": "四川省西充县"
+ },
+ "宋丹": {
+  "birth_year": 1956,
+  "native_place": "江苏泗洪"
+ },
+ "范骁骏": {
+  "birth_year": 1956,
+  "native_place": "山东垦利"
+ },
+ "尚宏": {
+  "birth_year": 1960,
+  "native_place": "山东青岛"
+ },
+ "郑和": {
+  "birth_year": 1958,
+  "native_place": "上海"
+ },
+ "郑晓松": {
+  "birth_year": 1959,
+  "native_place": "河北省石家庄市"
+ },
+ "王凯（解放军）": {
+  "birth_year": 1962,
+  "native_place": "河南省洛阳市"
+ },
+ "王文全": {
+  "birth_year": 1962,
+  "native_place": "湖北新洲"
+ },
+ "王受文": {
+  "birth_year": 1966,
+  "native_place": "安徽宣城"
+ },
+ "巨乾生": {
+  "birth_year": 1962,
+  "native_place": "陕西宝鸡"
+ },
+ "刘俊臣": {
+  "birth_year": 1963,
+  "native_place": "河南上蔡"
+ },
+ "刘海星": {
+  "birth_year": 1963,
+  "native_place": "江苏江阴"
+ },
+ "李玉超": {
+  "birth_year": 1962,
+  "native_place": "河南睢县"
+ },
+ "杨诚": {
+  "birth_year": 1964,
+  "native_place": "湖南省邵阳市"
+ },
+ "杨志亮": {
+  "birth_year": 1962,
+  "native_place": "河南省焦作市武陟县"
+ },
+ "肖培": {
+  "birth_year": 1961,
+  "native_place": "江苏镇江"
+ },
+ "韩文秀": {
+  "birth_year": 1963,
+  "native_place": "河北赞皇"
+ },
+ "童建明": {
+  "birth_year": 1963,
+  "native_place": "浙江淳安"
+ },
+ "雷凡培": {
+  "birth_year": 1963,
+  "native_place": "陕西合阳"
+ },
+ "蔡剑江": {
+  "birth_year": 1963,
+  "native_place": "江苏无锡"
+ },
+ "朱福熙": {
+  "birth_year": 1955,
+  "native_place": "浙江省临海市白水洋"
+ },
+ "全哲洙": {
+  "birth_year": 1952,
+  "native_place": "吉林龙井"
+ },
+ "刘源": {
+  "birth_year": 1951,
+  "native_place": "湖南宁乡"
+ },
+ "刘亚洲": {
+  "birth_year": 1952,
+  "native_place": "安徽省宿县"
+ },
+ "刘成军": {
+  "birth_year": 1949,
+  "native_place": "山东省成武县"
+ },
+ "刘晓江": {
+  "birth_year": 1949,
+  "native_place": "江西吉安"
+ },
+ "刘福连": {
+  "birth_year": 1952,
+  "native_place": "安徽省来安县"
+ },
+ "许耀元": {
+  "birth_year": 1952,
+  "native_place": "江苏省吴江区"
+ },
+ "孙建国": {
+  "birth_year": 1952,
+  "native_place": "河北省吴桥县"
+ },
+ "张海阳": {
+  "birth_year": 1949,
+  "native_place": "湖南平江"
+ },
+ "林左鸣": {
+  "birth_year": 1957,
+  "native_place": "福建漳州市诏安县"
+ },
+ "郑卫平": {
+  "birth_year": 1955,
+  "native_place": "山西省万荣县"
+ },
+ "项俊波": {
+  "birth_year": 1957,
+  "native_place": "重庆市云阳县"
+ },
+ "赵实": {
+  "birth_year": 1953,
+  "native_place": "北京"
+ },
+ "聂卫国": {
+  "birth_year": 1952,
+  "native_place": "重庆"
+ },
+ "贾廷安": {
+  "birth_year": 1952,
+  "native_place": "河南叶县"
+ },
+ "徐粉林": {
+  "birth_year": 1953,
+  "native_place": "江苏金坛"
+ },
+ "王家胜": {
+  "birth_year": 1955,
+  "native_place": "辽宁辽阳"
+ },
+ "朱生岭": {
+  "birth_year": 1957,
+  "native_place": "江苏东台"
+ },
+ "刘雷": {
+  "birth_year": 1957,
+  "native_place": "山东茌平"
+ },
+ "刘万龙": {
+  "birth_year": 1962,
+  "native_place": "山东省聊城市东昌府区"
+ },
+ "刘国治": {
+  "birth_year": 1960,
+  "native_place": "辽宁锦县（现凌海市）"
+ },
+ "安兆庆": {
+  "birth_year": 1957,
+  "native_place": "黑龙江兰西"
+ },
+ "许又声": {
+  "birth_year": 1957,
+  "native_place": "福建闽清"
+ },
+ "李屹": {
+  "birth_year": 1960,
+  "native_place": "四川渠县"
+ },
+ "孟祥锋": {
+  "birth_year": 1964,
+  "native_place": "河北平乡"
+ },
+ "秦生祥": {
+  "birth_year": 1957,
+  "native_place": "湖北监利"
+ },
+ "袁曙宏": {
+  "birth_year": 1958,
+  "native_place": "安徽舒城"
+ },
+ "钱小芊": {
+  "birth_year": 1955,
+  "native_place": "江苏启东"
+ },
+ "徐乐江": {
+  "birth_year": 1959,
+  "native_place": "山东新泰"
+ },
+ "徐安祥": {
+  "birth_year": 1956,
+  "native_place": "江苏常州"
+ },
+ "黎火辉": {
+  "birth_year": 1963,
+  "native_place": "江西省丰城市拖船镇"
+ },
+ "潘立刚": {
+  "birth_year": 1956,
+  "native_place": "北京"
+ },
+ "吴亚男": {
+  "birth_year": 1962,
+  "native_place": "河北省石家庄市"
+ },
+ "何宏军": {
+  "birth_year": 1961,
+  "native_place": "陕西洋县"
+ },
+ "邹加怡": {
+  "birth_year": 1963,
+  "native_place": "江苏无锡"
+ },
+ "陈旭": {
+  "birth_year": 1963,
+  "native_place": "河北省保定市"
+ },
+ "俞庆江": {
+  "birth_year": 1963,
+  "native_place": "江苏南京"
+ },
+ "徐忠波": {
+  "birth_year": 1960,
+  "native_place": "山东乳山"
+ },
+ "黄铭": {
+  "birth_year": 1963,
+  "native_place": "江苏宜兴"
+ },
+ "黄建发": {
+  "birth_year": 1965,
+  "native_place": "福建邵武"
+ },
+ "盛斌": {
+  "birth_year": 1958,
+  "native_place": "辽宁营口"
+ },
+ "王凯": {
+  "birth_year": 1962,
+  "native_place": "河南省洛阳市"
+ },
+ "刘伟": {
+  "birth_year": 1965,
+  "native_place": "山东省滕州市"
+ },
+ "李伟": {
+  "birth_year": 1960,
+  "native_place": "河南省济源市"
+ },
+ "丁向群": {
+  "birth_year": 1965,
+  "native_place": "江苏淮安"
+ },
+ "于立军": {
+  "birth_year": 1967,
+  "native_place": "辽宁建平"
+ },
+ "于吉红": {
+  "birth_year": 1967,
+  "native_place": "辽宁鞍山"
+ },
+ "于会文": {
+  "birth_year": 1968,
+  "native_place": "辽宁绥中"
+ },
+ "马汉成": {
+  "birth_year": 1968,
+  "native_place": "宁夏回族自治区"
+ },
+ "王健": {
+  "birth_year": 1965,
+  "native_place": "辽宁省沈阳市"
+ },
+ "王曦": {
+  "birth_year": 1971,
+  "native_place": "江苏省"
+ },
+ "王庭凱": {
+  "birth_year": 1967,
+  "native_place": "吉林長春"
+ },
+ "邓亦武": {
+  "birth_year": 1965,
+  "native_place": "湖南攸县"
+ },
+ "邓修明": {
+  "birth_year": 1964,
+  "native_place": "四川蓬溪"
+ },
+ "卢红": {
+  "birth_year": 1968,
+  "native_place": "四川井研"
+ },
+ "邢善萍": {
+  "birth_year": 1968,
+  "native_place": "安徽和县"
+ },
+ "曲莹璞": {
+  "birth_year": 1965,
+  "native_place": "河南唐河"
+ },
+ "吕军": {
+  "birth_year": 1967,
+  "native_place": "北京市"
+ },
+ "朱天舒": {
+  "birth_year": 1968,
+  "native_place": "江苏宿迁"
+ },
+ "刘珺": {
+  "birth_year": 1972,
+  "native_place": "甘肃通渭"
+ },
+ "刘强": {
+  "birth_year": 1971,
+  "native_place": "宁夏回族自治区海原县"
+ },
+ "丁兴农": {
+  "birth_year": 1963,
+  "native_place": "江苏建湖"
+ },
+ "王嘉毅": {
+  "birth_year": 1965,
+  "native_place": "宁夏青铜峡"
+ },
+ "方永祥": {
+  "birth_year": 1966,
+  "native_place": "福建同安"
+ },
+ "石玉钢": {
+  "birth_year": 1965,
+  "native_place": "湖南凤凰"
+ },
+ "石正露": {
+  "birth_year": 1963,
+  "native_place": "湖北省大冶县大箕铺镇"
+ },
+ "付文化": {
+  "birth_year": 1965,
+  "native_place": "山东省"
+ },
+ "朱芝松": {
+  "birth_year": 1969,
+  "native_place": "江苏连云港"
+ },
+ "刘仲华": {
+  "birth_year": 1965,
+  "native_place": "湖南省衡阳市"
+ },
+ "刘洪建": {
+  "birth_year": 1973,
+  "native_place": "福建福鼎"
+ },
+ "刘桂平": {
+  "birth_year": 1966,
+  "native_place": "湖南衡南"
+ },
+ "汤广福": {
+  "birth_year": 1966,
+  "native_place": "安徽滁州"
+ },
+ "安伟": {
+  "birth_year": 1968,
+  "native_place": "河南省"
+ },
+ "农生文": {
+  "birth_year": 1965,
+  "native_place": "广西壮族自治区"
+ },
+ "孙向东": {
+  "birth_year": 1968,
+  "native_place": "湖北安陆"
+ },
+ "孙金明": {
+  "birth_year": 1965,
+  "native_place": "江苏泰州"
+ },
+ "孙梅君": {
+  "birth_year": 1965,
+  "native_place": "四川开江"
+ },
+ "纪斌": {
+  "birth_year": 1966,
+  "native_place": "台湾台中市"
+ },
+ "杜江峰": {
+  "birth_year": 1969,
+  "native_place": "江苏无锡"
+ },
+ "李文堂": {
+  "birth_year": 1965,
+  "native_place": "浙江金华"
+ },
+ "李术才": {
+  "birth_year": 1965,
+  "native_place": "河北涞水"
+ },
+ "李石松": {
+  "birth_year": 1969,
+  "native_place": "云南云龙"
+ },
+ "李红军": {
+  "birth_year": 1965,
+  "native_place": "湖北当阳"
+ },
+ "李贤玉": {
+  "birth_year": 1965,
+  "native_place": "福建省"
+ },
+ "李明俊": {
+  "birth_year": 1970,
+  "native_place": "河南省"
+ },
+ "李明清": {
+  "birth_year": 1965,
+  "native_place": "重庆江津"
+ },
+ "李建榕": {
+  "birth_year": 1966,
+  "native_place": "福建省"
+ },
+ "李儒新": {
+  "birth_year": 1969,
+  "native_place": "福建建瓯"
+ },
+ "杨斌": {
+  "birth_year": 1954,
+  "native_place": "云南省"
+ },
+ "杨晋柏": {
+  "birth_year": 1973,
+  "native_place": "湖北江陵"
+ },
+ "连茂君": {
+  "birth_year": 1970,
+  "native_place": "辽宁朝阳"
+ },
+ "时光辉": {
+  "birth_year": 1970,
+  "native_place": "安徽省"
+ },
+ "吴浩": {
+  "birth_year": 1963,
+  "native_place": "四川省"
+ },
+ "吴孔明": {
+  "birth_year": 1964,
+  "native_place": "河南省固始县"
+ },
+ "吴俊宝": {
+  "birth_year": 1965,
+  "native_place": "湖北潜江"
+ },
+ "吴胜华": {
+  "birth_year": 1966,
+  "native_place": "贵州都匀"
+ },
+ "吴朝晖": {
+  "birth_year": 1966,
+  "native_place": "浙江温州"
+ },
+ "邱勇": {
+  "birth_year": 1964,
+  "native_place": "四川省"
+ },
+ "何雅玲": {
+  "birth_year": 1963,
+  "native_place": "陕西西安"
+ },
+ "谷澍": {
+  "birth_year": 1967,
+  "native_place": "江苏省"
+ },
+ "沈丹阳": {
+  "birth_year": 1965,
+  "native_place": "福建诏安"
+ },
+ "张伟": {
+  "birth_year": 1968,
+  "native_place": "山东省"
+ },
+ "张政": {
+  "birth_year": 1966,
+  "native_place": "黑龙江省"
+ },
+ "张凤中": {
+  "birth_year": 1966,
+  "native_place": "江苏新沂"
+ },
+ "张文兵": {
+  "birth_year": 1971,
+  "native_place": "安徽霍邱"
+ },
+ "张安顺": {
+  "birth_year": 1959,
+  "native_place": "黑龙江省"
+ },
+ "张忠阳": {
+  "birth_year": 1970,
+  "native_place": "湖南浏阳"
+ },
+ "张金良": {
+  "birth_year": 1969,
+  "native_place": "山东临朐"
+ },
+ "张荣桥": {
+  "birth_year": 1966,
+  "native_place": "安徽祁门"
+ },
+ "张超超": {
+  "birth_year": 1967,
+  "native_place": "河南新蔡"
+ },
+ "张智刚": {
+  "birth_year": 1964,
+  "native_place": "陕西神木"
+ },
+ "陈宏敏": {
+  "birth_year": 1968,
+  "native_place": "北京市"
+ },
+ "陈建文": {
+  "birth_year": 1965,
+  "native_place": "福建龙海"
+ },
+ "陈瑞峰": {
+  "birth_year": 1966,
+  "native_place": "山东胶南"
+ },
+ "杭义洪": {
+  "birth_year": 1962,
+  "native_place": "江苏省"
+ },
+ "罗强": {
+  "birth_year": 1963,
+  "native_place": "贵州省"
+ },
+ "金东寒": {
+  "birth_year": 1961,
+  "native_place": "浙江省"
+ },
+ "周志鑫": {
+  "birth_year": 1965,
+  "native_place": "安徽省太湖县"
+ },
+ "郑学选": {
+  "birth_year": 1966,
+  "native_place": "山东省"
+ },
+ "赵东": {
+  "birth_year": 1971,
+  "native_place": "辽宁省"
+ },
+ "姜辉": {
+  "birth_year": 1969,
+  "native_place": "辽宁建昌"
+ },
+ "姜国平": {
+  "birth_year": 1962,
+  "native_place": "山东乳山"
+ },
+ "祖力亚提·司马义": {
+  "birth_year": 1977,
+  "native_place": "新疆乌鲁木齐"
+ },
+ "费东斌": {
+  "birth_year": 1970,
+  "native_place": "辽宁锦州"
+ },
+ "费高云": {
+  "birth_year": 1971,
+  "native_place": "江苏淮安"
+ },
+ "姚林": {
+  "birth_year": 1965,
+  "native_place": "江苏南通"
+ },
+ "袁古洁": {
+  "birth_year": 1968,
+  "native_place": "贵州遵义"
+ },
+ "夏林茂": {
+  "birth_year": 1970,
+  "native_place": "江苏建湖"
+ },
+ "徐留平": {
+  "birth_year": 1964,
+  "native_place": "江苏扬中"
+ },
+ "凌焕新": {
+  "birth_year": 1962,
+  "native_place": "江苏靖江"
+ },
+ "郭芳": {
+  "birth_year": 1970,
+  "native_place": "河北省"
+ },
+ "郭元强": {
+  "birth_year": 1965,
+  "native_place": "河南省信阳市光山县"
+ },
+ "郭永红": {
+  "birth_year": 1968,
+  "native_place": "湖北浠水"
+ },
+ "郭竹学": {
+  "birth_year": 1966,
+  "native_place": "河北元氏"
+ },
+ "黄如": {
+  "birth_year": 1969,
+  "native_place": "福建省"
+ },
+ "黄旭聪": {
+  "birth_year": 1968,
+  "native_place": "浙江浦江"
+ },
+ "黄路生": {
+  "birth_year": 1965,
+  "native_place": "江西上犹"
+ },
+ "龚旗煌": {
+  "birth_year": 1964,
+  "native_place": "福建莆田"
+ },
+ "崔玉忠": {
+  "birth_year": 1964,
+  "native_place": "黑龙江海伦"
+ },
+ "崔永辉": {
+  "birth_year": 1970,
+  "native_place": "湖北恩施"
+ },
+ "彭佳学": {
+  "birth_year": 1965,
+  "native_place": "安徽潜山"
+ },
+ "葛巧红": {
+  "birth_year": 1970,
+  "native_place": "河南商水"
+ },
+ "董卫民": {
+  "birth_year": 1968,
+  "native_place": "湖北武穴"
+ },
+ "韩立明": {
+  "birth_year": 1964,
+  "native_place": "江苏常州"
+ },
+ "覃伟中": {
+  "birth_year": 1971,
+  "native_place": "广西玉林"
+ },
+ "景建峰": {
+  "birth_year": 1966,
+  "native_place": "浙江长兴"
+ },
+ "傅爱国": {
+  "birth_year": 1964,
+  "native_place": "湖北江陵"
+ },
+ "普布顿珠": {
+  "birth_year": 1972,
+  "native_place": "西藏自治区"
+ },
+ "曾益新": {
+  "birth_year": 1962,
+  "native_place": "湖南涟源"
+ },
+ "曾赞荣": {
+  "birth_year": 1969,
+  "native_place": "湖南邵东汪塘"
+ },
+ "温刚": {
+  "birth_year": 1966,
+  "native_place": "山西太原"
+ },
+ "蓝晓": {
+  "birth_year": 1969,
+  "native_place": "广西都安"
+ },
+ "虞爱华": {
+  "birth_year": 1965,
+  "native_place": "安徽天长"
+ },
+ "窦贤康": {
+  "birth_year": 1966,
+  "native_place": "安徽省"
+ },
+ "蔡允革": {
+  "birth_year": 1971,
+  "native_place": "河北霸州"
+ },
+ "蔡丽新": {
+  "birth_year": 1971,
+  "native_place": "江苏无锡"
+ },
+ "蔡希良": {
+  "birth_year": 1966,
+  "native_place": "浙江省"
+ },
+ "廖林": {
+  "birth_year": 1966,
+  "native_place": "广西合浦"
+ },
+ "缪建民": {
+  "birth_year": 1965,
+  "native_place": "浙江省海盐县"
+ },
+ "魏文徽": {
+  "birth_year": 1966,
+  "native_place": "山东省桓台县"
+ },
+ "才让太": {
+  "birth_year": 1958,
+  "native_place": "青海省"
+ },
+ "王晓云": {
+  "birth_year": 1968,
+  "native_place": "浙江义乌"
+ },
+ "杨发森": {
+  "birth_year": 1971,
+  "native_place": "甘肃古浪"
+ },
+ "肖川": {
+  "birth_year": 1965,
+  "native_place": "北京市"
+ },
+ "宋鱼水": {
+  "birth_year": 1966,
+  "native_place": "山东蓬莱"
+ },
+ "张晶": {
+  "birth_year": 1956,
+  "native_place": "黑龙江省"
+ },
+ "周长奎": {
+  "birth_year": 1969,
+  "native_place": "山东菏泽"
+ },
+ "施金通": {
+  "birth_year": 1979,
+  "native_place": "湖南花垣"
+ },
+ "王成": {
+  "birth_year": 1956,
+  "native_place": "山西省"
+ },
+ "王庭凯": {
+  "birth_year": 1967,
+  "native_place": "吉林長春"
+ },
+ "吴强": {
+  "birth_year": 1966,
+  "native_place": "贵州省"
+ },
+ "洪庆": {
+  "birth_year": 1976,
+  "native_place": "吉林省"
+ },
+ "黄志强": {
+  "birth_year": 1936,
+  "native_place": "江苏省"
+ },
+ "余剑锋": {
+  "birth_year": 1965,
+  "native_place": "甘肃天水"
+ },
+ "方红卫": {
+  "birth_year": 1966,
+  "native_place": "陕西省西安市"
+ },
+ "朱文祥": {
+  "birth_year": 1965,
+  "native_place": "江苏省"
+ },
+ "刘敬桢": {
+  "birth_year": 1967,
+  "native_place": "河北省"
+ },
+ "沈莹": {
+  "birth_year": 1965,
+  "native_place": "上海市"
+ },
+ "陈杰": {
+  "birth_year": 1965,
+  "native_place": "福建省"
+ },
+ "周建国": {
+  "birth_year": 1964,
+  "native_place": "江苏省"
+ },
+ "袁洁": {
+  "birth_year": 1965,
+  "native_place": "江苏省"
+ },
+ "常进": {
+  "birth_year": 1966,
+  "native_place": "江苏省"
+ },
+ "王旭东": {
+  "birth_year": 1967,
+  "native_place": "甘肃省"
+ }
+}

@@ -237,3 +237,179 @@ def test_separate_party_secretary_seats() -> None:
         ("黄润秋", "部长"),
         ("孙金龙", "党组书记"),
     ]
+
+def test_20th_central_committee_status_accounting() -> None:
+    detail = client.get(
+        "/api/v1/central/institutions/party:central_committee", params={"date": "2026-11-16"}
+    ).json()
+    stats = detail["committee_stats"]
+    assert stats["elected_members"] == 205
+    assert stats["current_members"] == 191
+    assert stats["actual_members"] == 183
+    assert stats["expelled_members"] == 36
+    assert stats["resigned_members"] == 1
+    assert stats["deceased_members"] == 1
+    assert stats["under_investigation"] == 8
+    assert len(detail["committee_members"]["members"]) == 229
+    assert (
+        stats["actual_members"]
+        + stats["expelled_members"]
+        + stats["resigned_members"]
+        + stats["deceased_members"]
+        + stats["under_investigation"]
+        == stats["recorded_members"]
+    )
+
+def test_20th_body_baseline_snapshots() -> None:
+    expected = {
+        "2022-10-23": (205, 0, 0, 205, 0, 171, 0, 0, 171, 0, 171),
+        "2024-07-18": (205, 3, 3, 205, 1, 171, 1, 3, 167, 0, 167),
+        "2025-10-23": (205, 14, 14, 205, 1, 171, 5, 14, 152, 0, 152),
+        "2026-10-29": (205, 38, 24, 191, 7, 171, 15, 24, 132, 5, 127),
+    }
+    for day, values in expected.items():
+        detail = client.get(
+            "/api/v1/central/institutions/party:central_committee", params={"date": day}
+        ).json()
+        stats = detail["committee_stats"]
+        assert (
+            stats["elected_members"],
+            stats["departed_members"],
+            stats["replacement_members"],
+            stats["current_members"],
+            stats["under_investigation"],
+            stats["initial_alternates"],
+            stats["departed_alternates"],
+            stats["promoted_alternates"],
+            stats["current_alternates"],
+            stats["under_investigation_alternates"],
+            stats["actual_alternates"],
+        ) == values
+        members = detail["committee_members"]["members"]
+        alternates = detail["committee_alternates"]["members"]
+        assert len(members) == {
+            "2022-10-23": 205,
+            "2024-07-18": 208,
+            "2025-10-23": 219,
+            "2026-10-29": 229,
+        }[day]
+        assert len(alternates) == 171
+        assert all(item["birth_year"] and item["native_place"] for item in members + alternates)
+
+    detail = client.get(
+        "/api/v1/central/institutions/party:central_committee", params={"date": "2026-10-29"}
+    ).json()
+    unique = {item["name"].replace("凱", "凯") for item in detail["committee_members"]["members"]}
+    unique |= {item["name"].replace("凱", "凯") for item in detail["committee_alternates"]["members"]}
+    assert len(unique) == 376
+
+def test_institution_contract_endpoint() -> None:
+    detail = client.get(
+        "/api/v1/institutions/central/party:central_committee",
+        params={"date": "2026-10-29"},
+    ).json()
+    assert detail["schema_version"] == 1
+    assert detail["entity_type"] == "central"
+    assert detail["name"] == "中国共产党中央委员会"
+    assert detail["committee_stats"]["actual_members"] == 184
+    assert any(
+        section["key"] == "roster" and section["available"]
+        for section in detail["sections"]
+    )
+    assert detail["children"]
+
+    assert client.get(
+        "/api/v1/institutions/not-a-type/party:central_committee"
+    ).status_code == 422
+    assert client.get(
+        "/api/v1/institutions/province/party:central_committee"
+    ).status_code == 404
+
+def test_politburo_rank_is_vice_national() -> None:
+    data = json.loads(DATASET.read_text(encoding="utf-8"))
+    ranks = {
+        org["id"]: org.get("institution_rank")
+        for org in data["organizations"]
+    }
+    assert ranks["party:politburo"] == "vice_national_leader"
+    assert ranks["party:politburo_standing"] == "national_leader"
+    assert ranks["party:secretariat"] == "vice_national_leader"
+
+def test_expelled_politburo_members_are_not_current() -> None:
+    detail = client.get(
+        "/api/v1/institutions/central/party:politburo",
+        params={"date": "2026-10-29"},
+    ).json()
+    names = {leader["name"] for leader in detail["leaders"]}
+    assert "何卫东" not in names
+    assert "张又侠" not in names
+    assert "马兴瑞" not in names
+    assert "张升民" in names
+    assert len(detail["leaders"]) == 22
+
+def test_elected_politburo_members_keep_expelled_labels() -> None:
+    org = client.get(
+        "/api/v1/central/org",
+        params={"team": "party", "date": "2026-10-29"},
+    ).json()
+    politburo = next(
+        item for item in org["institutions"] if item["id"] == "party:politburo"
+    )
+    elected = {member["name"]: member for member in politburo["elected_members"]}
+    assert len(elected) == 24
+    for name in ["何卫东", "张又侠", "马兴瑞"]:
+        assert elected[name]["member_status"] == "expelled"
+        assert elected[name]["member_status_label"] == "已开除"
+    assert "张升民" not in elected
+    assert len(politburo["leaders"]) == 22
+
+def test_politburo_membership_change_lines() -> None:
+    org = client.get(
+        "/api/v1/central/org",
+        params={"team": "party", "date": "2026-10-29"},
+    ).json()
+    politburo = next(
+        item for item in org["institutions"] if item["id"] == "party:politburo"
+    )
+    changes = politburo["membership_changes"]
+    labels = [item["label"] for item in changes]
+    assert labels == [
+        "二十届四中全会除名",
+        "二十届五中全会除名",
+        "二十届五中全会增选",
+    ]
+    assert changes[0]["members"] == ["何卫东"]
+    assert set(changes[1]["members"]) == {"张又侠", "马兴瑞"}
+    assert changes[2]["members"] == ["张升民"]
+
+def test_politburo_roster_contains_added_member() -> None:
+    org = client.get(
+        "/api/v1/central/org",
+        params={"team": "party", "date": "2026-10-29"},
+    ).json()
+    politburo = next(
+        item for item in org["institutions"] if item["id"] == "party:politburo"
+    )
+    roster = {member["name"]: member for member in politburo["roster_members"]}
+    assert len(roster) == 25
+    assert roster["张升民"]["member_status"] == "added"
+    assert roster["张升民"]["member_status_label"] == "新增选"
+    assert "二十届中央军委委员" in {
+        role["label"] for role in roster["张升民"]["party_roles"]
+    }
+
+def test_collegial_body_composition_display() -> None:
+    org = client.get(
+        "/api/v1/central/org",
+        params={"team": "party", "date": "2026-10-29"},
+    ).json()
+    by_id = {item["id"]: item for item in org["institutions"]}
+    assert by_id["party:politburo_standing"]["composition"]["display"] == "7"
+    assert by_id["party:secretariat"]["composition"]["display"] == "7"
+    assert by_id["party:politburo"]["composition"] == {
+        "initial": 24,
+        "removed": 3,
+        "added": 1,
+        "current": 22,
+        "display": "22",
+    }

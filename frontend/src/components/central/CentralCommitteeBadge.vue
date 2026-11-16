@@ -10,6 +10,7 @@ const tone = computed(() => {
   if (props.committee.status === "active") return "border-gold/45 text-gold bg-gold/[0.08]";
   return "border-white/15 text-paper-faint bg-white/[0.03]";
 });
+const displayLabel = computed(() => props.committee?.label ?? "");
 </script>
 
 <template>
@@ -19,7 +20,7 @@ const tone = computed(() => {
     :class="[tone, compact ? 'px-1' : '']"
     :title="committee.status_note || committee.label"
   >
-    <span>{{ committee.label }}</span>
+    <span>{{ displayLabel }}</span>
     <span v-if="committee.status !== 'active'" class="opacity-80">· {{ committee.status_label }}</span>
   </span>
 </template>

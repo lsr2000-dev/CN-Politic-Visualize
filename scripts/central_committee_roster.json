@@ -17,8 +17,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "expelled"
   }
  ],
@@ -34,7 +34,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -59,7 +59,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -93,7 +93,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -109,22 +109,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "洛桑江村": [
@@ -139,14 +132,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -162,22 +148,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "黄坤明": [
@@ -192,13 +171,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -212,24 +191,10 @@
    "status": "term_ended"
   },
   {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 20,
-   "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
-  },
-  {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -245,13 +210,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -260,13 +225,6 @@
   {
    "term": 18,
    "type": "alternate",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
    "start": "2012-11-15",
    "end": "2017-10-24",
    "status": "term_ended"
@@ -285,13 +243,6 @@
    "type": "alternate",
    "start": "2017-10-25",
    "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
    "status": "term_ended"
   }
  ],
@@ -322,7 +273,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -341,13 +292,6 @@
    "start": "2017-10-25",
    "end": "2022-10-15",
    "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "蒋超良": [
@@ -362,7 +306,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -398,13 +342,6 @@
    "start": "2017-10-25",
    "end": "2022-10-15",
    "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "咸辉": [
@@ -419,14 +356,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -442,7 +372,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -458,22 +388,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "刘慧": [
@@ -513,13 +436,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -536,13 +459,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -559,7 +482,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -600,22 +523,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "刘奇": [
@@ -623,14 +539,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -639,22 +548,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "赵乐际": [
@@ -662,13 +564,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -685,13 +587,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -708,7 +610,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -724,13 +626,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -747,7 +649,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -763,13 +665,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -786,7 +688,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -802,7 +704,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -811,13 +713,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -827,7 +729,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -843,7 +745,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -859,7 +761,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -875,7 +777,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -891,7 +793,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -907,7 +809,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -923,13 +825,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -946,13 +848,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -969,22 +871,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "李纪恒": [
@@ -992,7 +887,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1008,14 +903,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -1024,7 +912,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1040,13 +928,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -1063,14 +951,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -1079,7 +960,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -1088,7 +969,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1104,13 +985,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1120,22 +1001,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "马兴瑞": [
@@ -1143,14 +1017,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "expelled"
   },
   {
@@ -1173,7 +1047,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1189,7 +1063,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1205,7 +1079,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1221,7 +1095,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1237,7 +1111,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1253,22 +1127,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   },
   {
    "term": 18,
@@ -1283,7 +1150,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1296,16 +1163,9 @@
  ],
  "王伟中": [
   {
-   "term": 19,
-   "type": "member",
-   "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -1322,7 +1182,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1338,7 +1198,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1354,13 +1214,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -1377,22 +1237,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "应勇": [
@@ -1400,13 +1253,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1416,13 +1269,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -1439,22 +1292,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "卢展工": [
@@ -1462,7 +1308,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1478,22 +1324,15 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "expelled"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "吴英杰": [
@@ -1501,7 +1340,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -1510,7 +1349,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1526,7 +1365,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1547,13 +1386,6 @@
  "马国强": [
   {
    "term": 19,
-   "type": "member",
-   "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 19,
    "type": "alternate",
    "start": "2017-10-25",
    "end": "2022-10-15",
@@ -1565,7 +1397,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1581,7 +1413,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1597,7 +1429,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -1613,14 +1445,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -1629,13 +1454,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1651,7 +1476,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1667,7 +1492,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1683,7 +1508,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1699,7 +1524,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1715,7 +1540,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1731,7 +1556,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1747,7 +1572,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1788,7 +1613,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1804,8 +1629,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "expelled"
   }
  ],
@@ -1820,7 +1645,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1845,7 +1670,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1861,7 +1686,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1886,7 +1711,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1911,7 +1736,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1927,7 +1752,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1943,7 +1768,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1961,7 +1786,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1970,7 +1795,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1979,7 +1804,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1988,7 +1813,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -1997,7 +1822,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2006,7 +1831,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2015,7 +1840,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2024,7 +1849,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2033,39 +1858,43 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2025-10-23",
    "end": null,
-   "status": "active"
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
   }
  ],
  "朱国贤": [
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2026-10-29",
    "end": null,
-   "status": "active"
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": "2026-10-29",
-   "status": "active"
+   "status": "promoted",
+   "status_date": "2026-10-29"
   }
  ],
  "胡玉亭": [
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2074,23 +1903,25 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2026-10-29",
    "end": null,
-   "status": "active"
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": "2026-10-29",
-   "status": "active"
+   "status": "promoted",
+   "status_date": "2026-10-29"
   }
  ],
  "王正谱": [
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2099,7 +1930,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2108,7 +1939,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2117,7 +1948,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2126,7 +1957,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2135,7 +1966,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2144,7 +1975,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2153,7 +1984,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2162,7 +1993,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2171,7 +2002,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2180,7 +2011,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2189,23 +2020,25 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2025-10-23",
    "end": null,
-   "status": "active"
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
   }
  ],
  "王东明": [
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   },
@@ -2227,7 +2060,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2235,7 +2068,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2244,7 +2077,7 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2253,7 +2086,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2262,7 +2095,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2271,7 +2104,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2280,7 +2113,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2289,7 +2122,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2298,7 +2131,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2307,7 +2140,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2316,7 +2149,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2325,7 +2158,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2334,7 +2167,7 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": null,
    "status": "active"
   }
@@ -2398,13 +2231,6 @@
    "start": "2017-10-25",
    "end": "2022-10-15",
    "status": "term_ended"
-  },
-  {
-   "term": 20,
-   "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
   }
  ],
  "张毅": [
@@ -2428,13 +2254,6 @@
  "林铎": [
   {
    "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
    "type": "alternate",
    "start": "2012-11-15",
    "end": "2017-10-24",
@@ -2444,7 +2263,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2460,13 +2279,6 @@
  "王建军": [
   {
    "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
    "type": "alternate",
    "start": "2012-11-15",
    "end": "2017-10-24",
@@ -2476,20 +2288,13 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
  "郝鹏": [
   {
    "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
    "type": "alternate",
    "start": "2012-11-15",
    "end": "2017-10-24",
@@ -2499,37 +2304,30 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
  "许勤": [
   {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -2545,7 +2343,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2587,43 +2385,20 @@
  ],
  "孙志刚": [
   {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
  "刘伟": [
   {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
-  }
- ],
- "杨雄": [
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
   }
  ],
  "黄兴国": [
@@ -2638,13 +2413,6 @@
  "李小鹏": [
   {
    "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
    "type": "alternate",
    "start": "2012-11-15",
    "end": "2017-10-24",
@@ -2654,7 +2422,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2724,30 +2492,23 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
  "雪克来提·扎克尔": [
   {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2787,8 +2548,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -2874,18 +2635,11 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
  "陈武": [
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
   {
    "term": 18,
    "type": "alternate",
@@ -2897,16 +2651,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
-   "status": "term_ended"
-  }
- ],
- "黄龙云": [
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -2929,13 +2674,6 @@
   }
  ],
  "崔波": [
-  {
-   "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
   {
    "term": 18,
    "type": "alternate",
@@ -2983,13 +2721,6 @@
  "李强": [
   {
    "term": 18,
-   "type": "member",
-   "start": "2012-11-15",
-   "end": "2017-10-24",
-   "status": "term_ended"
-  },
-  {
-   "term": 18,
    "type": "alternate",
    "start": "2012-11-15",
    "end": "2017-10-24",
@@ -2999,14 +2730,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3049,7 +2780,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -3090,7 +2821,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
@@ -3103,8 +2834,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3126,8 +2857,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3143,14 +2874,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3166,14 +2897,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3198,14 +2929,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3214,7 +2945,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -3223,14 +2954,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3239,7 +2970,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -3248,7 +2979,7 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   }
  ],
@@ -3257,14 +2988,14 @@
    "term": 19,
    "type": "member",
    "start": "2017-10-25",
-   "end": "2022-10-15",
+   "end": "2022-10-22",
    "status": "term_ended"
   },
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3279,8 +3010,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3304,8 +3035,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3320,8 +3051,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3336,8 +3067,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3363,8 +3094,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3372,8 +3103,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3381,8 +3112,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3390,8 +3121,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3399,8 +3130,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3408,8 +3139,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3417,8 +3148,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3426,24 +3157,26 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": "2026-10-29",
-   "status": "active"
+   "status": "promoted",
+   "status_date": "2026-10-29"
   }
  ],
  "黄强": [
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3451,8 +3184,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3460,8 +3193,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3469,8 +3202,8 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3478,24 +3211,26 @@
   {
    "term": 20,
    "type": "member",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
-   "status": "active"
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
   },
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
    "end": "2026-10-29",
-   "status": "active"
+   "status": "promoted",
+   "status_date": "2026-10-29"
   }
  ],
  "张春林": [
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
-   "end": "2026-10-29",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ],
@@ -3503,8 +3238,4524 @@
   {
    "term": 20,
    "type": "alternate",
-   "start": "2022-10-16",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘建超": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李小新": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "庄荣文": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "曲青山": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "庹震": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "慎海雄": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴汉圣": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "于广洲": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "习近平": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "马凯": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "马晓天": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王侠": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王勇": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王晨": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王毅": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王万宾": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王玉普": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王光亚": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王伟光": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王志刚": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王岐山": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王沪宁": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王建平": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王胜俊": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王洪尧": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王冠中": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王家瑞": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王教成": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "王新宪": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "支树平": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "尹蔚民": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "叶小文": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "田中": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "田修思": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "白春礼": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "令计划": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "朱福熙": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "全哲洙": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘鹏": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘源": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘鹤": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘云山": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘亚洲": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘成军": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘延东": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘晓江": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "刘粤军": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘福连": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "许其亮": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "许耀元": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "孙怀山": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "孙建国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "孙思敬": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杜青林": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杜金才": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杜恒岩": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "李从军": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "李东生": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "李立国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "李克强": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "李建国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "李源潮": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杨晶": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杨传堂": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杨金山": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杨栋梁": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "杨洁篪": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "杨焕宁": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "肖钢": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "肖捷": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴昌德": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "吴胜利": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "吴爱英": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "吴新雄": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "何毅亭": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "冷溶": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "汪永清": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "沈跃跃": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "沈德咏": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "宋大涵": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "宋秀岩": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "张阳": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "张茅": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "张又侠": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张仕波": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "张志军": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "张海阳": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "陈希": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "陈雷": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "陈宝生": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "苗圩": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "范长龙": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "林军": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "林左鸣": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "尚福林": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "周济": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "周生贤": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "郑卫平": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "房峰辉": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "孟学农": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "孟建柱": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "项俊波": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "赵实": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "赵克石": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "赵宗岐": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "胡泽君": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "袁贵仁": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "耿惠昌": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "聂卫国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "贾廷安": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "铁凝": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "徐绍史": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "徐粉林": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "高虎城": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "黄树贤": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "曹建明": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "戚建国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "常万全": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "彭勇": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "蒋建国": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "蒋洁敏": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "韩长赋": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "焦焕成": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "楼继伟": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "解振华": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "褚益民": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "蔡武": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "蔡名照": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "蔡英挺": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "蔡赴朝": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "雒树刚": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "魏亮": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  }
+ ],
+ "魏凤和": [
+  {
+   "term": 18,
+   "type": "member",
+   "start": "2012-11-15",
+   "end": "2017-10-24",
+   "status": "term_ended"
+  },
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "乙晓光": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "丁来杭": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "丁学东": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "丁薛祥": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "于忠福": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "万立骏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王军": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王小洪": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王尔乘": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王志民": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王建武": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "王家胜": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "毕井泉": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "朱生岭": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘雷": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘士余": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘万龙": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘国治": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘金国": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘结一": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "刘振立": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "安兆庆": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "许又声": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "孙金龙": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李屹": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李凤彪": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李玉赋": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "李传广": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "李作成": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "李尚福": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李桥铭": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李晓红": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨学军": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨振武": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "杨晓渡": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "肖亚庆": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "吴社洲": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "邱学强": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "何平（解放军）": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "沈金龙": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "怀进鹏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "宋丹": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "宋涛": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "张升民": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张纪南": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "张晓明": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "陈文清": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "苗华": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "苟仲文": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "范骁骏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "尚宏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "金壮龙": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "周亚宁": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "郑和": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "郑晓松": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "孟祥锋": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "钟山": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "信春鹰": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "侯建国": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "秦生祥": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "袁誉柏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "袁曙宏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "聂辰席": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "钱小芊": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "徐乐江": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "徐安祥": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "高津": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "黄明": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "黄守宏": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "盛斌": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "鄂竟平": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "韩卫国": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "傅政华": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "黎火辉": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "潘立刚": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "穆虹": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  }
+ ],
+ "马晓伟": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王凯（解放军）": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王强": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王鹏": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王广华": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王仁华": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王文全": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王秀斌": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王受文": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王春宁": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王祥喜": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "巨乾生": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘发庆": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘青松": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘俊臣": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘海星": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "齐玉": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "许学强": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "阴和俊": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李书磊": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李玉超": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨诚": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨志亮": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "肖培": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴亚男": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "何卫东": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "何宏军": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "邹加怡": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "汪海江": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "沈春耀": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张林": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张玉卓": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张红兵": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张宏森": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陆治原": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈旭": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈一新": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "林向阳": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "易会满": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郑新聪": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "赵晓哲": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "胡中明": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "钟绍军": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "侯凯": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "俞庆江": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "俞建华": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "贺荣": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "贺军科": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "秦刚": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "秦树桐": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "袁华智": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "倪虹": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "徐西盛": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "徐忠波": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "徐起零": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "徐德清": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "高翔": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "高志丹": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郭普校": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄铭": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄建发": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "常丁求": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "董军": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "韩文秀": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "傅华": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "童建明": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "谢春涛": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "雷凡培": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "蔡剑江": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "裴金佳": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "潘岳": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张军": [
+  {
+   "term": 19,
+   "type": "member",
+   "start": "2017-10-25",
+   "end": "2022-10-22",
+   "status": "term_ended"
+  },
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "丁向群": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2024-07-18",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2024-07-18",
+   "status": "promoted",
+   "status_date": "2024-07-18"
+  }
+ ],
+ "于立军": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2024-07-18",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2024-07-18",
+   "status": "promoted",
+   "status_date": "2024-07-18"
+  }
+ ],
+ "于吉红": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2024-07-18",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2024-07-18",
+   "status": "promoted",
+   "status_date": "2024-07-18"
+  }
+ ],
+ "于会文": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "马汉成": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "王健": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "王曦": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "王永红": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "王庭凱": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  }
+ ],
+ "邓亦武": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "邓修明": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "卢红": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2025-10-23",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "邢善萍": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
    "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "曲莹璞": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "吕军": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "朱天舒": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "刘珺": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "刘强": [
+  {
+   "term": 20,
+   "type": "member",
+   "start": "2026-10-29",
+   "end": null,
+   "status": "active",
+   "replacement": true
+  },
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "promoted",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "丁兴农": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王立岩": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王抗平": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "under_investigation",
+   "status_date": "2026-06-26",
+   "review_date": "2026-06-26"
+  }
+ ],
+ "王庭凯": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "promoted",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "王嘉毅": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "方永祥": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "方红卫": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "石玉钢": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "石正露": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "付文化": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "丛亮": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "朱文祥": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "朱芝松": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "expelled",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "朱鹤新": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘仲华": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘洪建": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘桂平": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘烈宏": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "刘敬桢": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "汤广福": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "安伟": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "农生文": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "孙向东": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "孙金明": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2024-07-18",
+   "status": "expelled",
+   "status_date": "2024-07-18"
+  }
+ ],
+ "孙梅君": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "纪斌": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杜江峰": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李云泽": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "removed",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "李文堂": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李术才": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李石松": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "expelled",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "李红军": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李贤玉": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李明俊": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李明清": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李建榕": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "李儒新": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨斌": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨晋柏": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "连茂君": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "时光辉": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴浩": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴清": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴强": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴孔明": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴俊宝": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "吴胜华": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "吴朝晖": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "邱勇": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "何雅玲": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "谷澍": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "沈莹": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "沈丹阳": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张伟": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张政": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张凤中": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "expelled",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "张文兵": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张安顺": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张忠阳": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "张金良": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张荣桥": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张超超": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张智刚": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈杰": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈宏敏": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈建文": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "陈瑞峰": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杭义洪": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "罗强": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "金东寒": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "周志鑫": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "周建国": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郑学选": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "赵东": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "姜辉": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "姜国平": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "洪庆": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "祖力亚提·司马义": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "费东斌": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "费高云": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "under_investigation",
+   "status_date": "2026-05-06",
+   "review_date": "2026-05-06"
+  }
+ ],
+ "姚林": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "袁洁": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "袁古洁": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "夏林茂": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "under_investigation",
+   "status_date": "2026-10-22",
+   "review_date": "2026-10-22"
+  }
+ ],
+ "徐留平": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "under_investigation",
+   "status_date": "2026-05-23",
+   "review_date": "2026-05-23"
+  }
+ ],
+ "凌焕新": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郭芳": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郭元强": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郭永红": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "郭竹学": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄如": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄旭聪": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄志强": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黄路生": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "曹淑敏": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "龚旗煌": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "常进": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "崔玉忠": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "崔永辉": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "康义": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "彭佳学": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "葛巧红": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "董卫民": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "韩立明": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "覃伟中": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "under_investigation",
+   "status_date": "2026-09-21",
+   "review_date": "2026-09-21"
+  }
+ ],
+ "景建峰": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "傅爱国": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "普布顿珠": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "曾益新": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "曾赞荣": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "温刚": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "蓝晓": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "虞爱华": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "窦贤康": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "蔡允革": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "蔡丽新": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "蔡希良": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "廖林": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "缪建民": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "黎湘": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "魏文徽": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "才让太": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王旭东": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王晓云": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "杨发森": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2025-10-23",
+   "status": "expelled",
+   "status_date": "2025-10-23"
+  }
+ ],
+ "肖川": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "余剑锋": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": "2026-10-29",
+   "status": "expelled",
+   "status_date": "2026-10-29"
+  }
+ ],
+ "宋志勇": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "宋鱼水": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "张晶": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "周长奎": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "施金通": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
+   "status": "active"
+  }
+ ],
+ "王成": [
+  {
+   "term": 20,
+   "type": "alternate",
+   "start": "2022-10-23",
+   "end": null,
    "status": "active"
   }
  ]

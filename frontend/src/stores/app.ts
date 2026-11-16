@@ -1,7 +1,7 @@
 import { computed, ref, shallowRef } from "vue";
 import { defineStore } from "pinia";
 import axios from "axios";
-import { getCareer, getMeta, getOfficer, getSeatHistory } from "@/api/client";
+import { getCareer, getMeta, getOfficer, getSeatHistory, getVocabulary } from "@/api/client";
 import type {
   CareerResponse,
   CategoryKey,
@@ -9,12 +9,14 @@ import type {
   MetaResponse,
   OfficerProfileResponse,
   SeatHistoryResponse,
+  Vocabulary,
 } from "@/types";
 import { useMapStore } from "./map";
 import { useTimelineStore } from "./timeline";
 
 export const useAppStore = defineStore("app", () => {
   const meta = ref<MetaResponse | null>(null);
+  const vocabulary = ref<Vocabulary | null>(null);
   const geo = shallowRef<GeoJson | null>(null);
   const ready = ref(false);
   const booting = ref(false);
@@ -34,8 +36,11 @@ export const useAppStore = defineStore("app", () => {
     booting.value = true;
     bootError.value = null;
     try {
-      const [metaResponse, geoJson] = await Promise.all([getMeta(), loadGeo()]);
+      const [metaResponse, vocabResponse, geoJson] = await Promise.all([
+        getMeta(), getVocabulary(), loadGeo(),
+      ]);
       meta.value = metaResponse;
+      vocabulary.value = vocabResponse;
       geo.value = geoJson;
       const timeline = useTimelineStore();
       timeline.initialize(metaResponse);
@@ -96,6 +101,7 @@ export const useAppStore = defineStore("app", () => {
 
   return {
     meta,
+    vocabulary,
     geo,
     ready,
     booting,

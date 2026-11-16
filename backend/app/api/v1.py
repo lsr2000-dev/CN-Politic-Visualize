@@ -7,6 +7,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, Query, Request, Response
 
 from ..core.cache import dumps
+from ..core.vocabulary import VOCABULARY
 from ..domain import CATEGORY_ORDER
 from ..schemas import (
     CareerResponse,
@@ -25,6 +26,7 @@ from ..schemas import (
 )
 from ..services.query import NotFoundError, QueryService
 from ..services.central import CENTRAL_START, central_service
+from ..services.institution_contract import child_summary, institution_envelope
 
 router = APIRouter()
 
@@ -131,6 +133,44 @@ def central_snapshot(
     return _ok(payload, request, response, "miss")
 
 
+@router.get("/institutions/{entity_type}/{inst_id}", tags=["institutions"], summary="机构信息统一详情")
+def institution_detail(
+    entity_type: str,
+    inst_id: str,
+    request: Request,
+    response: Response,
+    day: Annotated[date | None, Query(alias="date")] = None,
+):
+    if entity_type not in {"central", "province", "prefecture", "county", "subordinate"}:
+        raise HTTPException(
+            status_code=422,
+            detail={"code": "bad_entity_type", "message": f"未知机构类型: {entity_type}"},
+        )
+    if entity_type != "central":
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "code": "institution_adapter_not_available",
+                "message": f"{entity_type} 机构适配器尚未接入统一数据源",
+            },
+        )
+    day = _central_day(day or date(2026, 10, 29))
+    if inst_id not in central_service.by_id:
+        raise NotFoundError(f"未知机构: {inst_id}")
+    payload = central_service.institution(inst_id, day)
+    children = [
+        child_summary(item)
+        for item in central_service.by_id.values()
+        if item.get("parent_id") == inst_id
+    ]
+    return _ok(
+        institution_envelope(payload, entity_type="central", children=children),
+        request,
+        response,
+        "miss",
+    )
+
+
 @router.get("/central/institutions/{inst_id}", tags=["central"], summary="中央机构详情")
 def central_institution(
     inst_id: str,
@@ -158,6 +198,11 @@ def central_committee(
                 "committee": central_service.committee(name, day),
                 "party_roles": central_service.party_roles_for(name)},
                request, response, "miss")
+
+@router.get("/meta/vocabulary", tags=["meta"], summary="统一标识词汇表")
+def get_vocabulary(request: Request, response: Response):
+    return _ok(VOCABULARY, request, response, "miss")
+
 
 @router.get("/meta", response_model=MetaResponse, tags=["meta"], summary="数据集元信息")
 def get_meta(request: Request, response: Response, service: Service):

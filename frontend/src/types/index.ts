@@ -42,6 +42,7 @@ export interface Member {
   is_incumbent: boolean;
   is_provisional: boolean;
   is_roster_snapshot: boolean;
+  is_future?: boolean;
   status: string;
   status_label: string;
   exit_reason: string | null;
@@ -281,6 +282,19 @@ export interface DatasetInfo {
   counts: Record<string, number>;
 }
 
+export interface Vocabulary {
+  terms: Array<{ ordinal: number; label: string; start: string; end: string }>;
+  identity_types: Record<string, { label: string; rank: string }>;
+  committee_types: Record<string, { label: string }>;
+  party_categories: Record<string, string>;
+  institution_types: Record<string, { label: string; short: string }>;
+  group_labels: Record<string, string>;
+  ranks: Record<string, string>;
+  person_status: Record<string, string>;
+  tenure_status: Record<string, string>;
+  identity_status: Record<string, string>;
+}
+
 export interface MetaResponse {
   dataset: DatasetInfo;
   categories: CategoryInfo[];
@@ -428,7 +442,14 @@ export interface CentralCommittee {
 export interface CentralPartyRole {
   term: number;
   term_label: string;
-  role: "politburo_standing" | "politburo_member" | "secretariat_member";
+  role:
+    | "politburo_standing"
+    | "politburo_member"
+    | "secretariat_member"
+    | "discipline_secretary"
+    | "military_chair"
+    | "military_vice_chair"
+    | "military_member";
   label: string;
   status: "active" | "expelled" | "retired" | "deceased" | "term_ended";
 }
@@ -449,6 +470,8 @@ export interface CentralLeader {
   native_place?: string | null;
   rank_override?: string | null;
   concurrent_titles?: string[];
+  member_status?: string;
+  member_status_label?: string;
 }
 
 export interface CentralInstitution {
@@ -471,6 +494,21 @@ export interface CentralInstitution {
   aliases?: string[];
   verification_status?: "verified" | "provisional" | "unverified";
   leaders: CentralLeader[];
+  elected_members?: CentralLeader[];
+  roster_members?: CentralLeader[];
+  composition?: {
+    initial: number;
+    removed: number;
+    added: number;
+    current: number;
+    display: string;
+  };
+  membership_changes?: {
+    event: string;
+    change_type: "removed" | "added";
+    label: string;
+    members: string[];
+  }[];
   leader: CentralLeader | null;
 }
 
@@ -505,6 +543,71 @@ export interface CentralCommitteeResponse {
   party_roles: CentralPartyRole[];
 }
 
+export interface CentralCommitteeStats {
+  term: number;
+  term_label: string;
+  elected_members: number | null;
+  elected_alternates: number | null;
+  initial_members: number;
+  departed_members: number;
+  replacement_members: number;
+  initial_members_remaining: number;
+  member_list_collected: number;
+  alternate_list_collected: number;
+  initial_alternates?: number;
+  departed_alternates?: number;
+  promoted_alternates?: number;
+  current_alternates?: number;
+  under_investigation_alternates?: number;
+  alternate_expelled?: number;
+  alternate_removed?: number;
+  initial_alternates_remaining?: number;
+  recorded_members: number;
+  recorded_alternates: number;
+  active_members: number;
+  current_members: number;
+  actual_members: number;
+  resigned_members: number;
+  deceased_members: number;
+  actual_alternates: number;
+  actual_total: number;
+  expelled_members: number;
+  expelled_alternates: number;
+  under_investigation: number;
+  recorded_total: number;
+}
+
+export interface CentralCommitteeMember {
+  name: string;
+  type: "member" | "alternate";
+  officer_id?: number | null;
+  initial?: boolean;
+  replacement?: boolean;
+  status: string;
+  status_label?: string;
+  birth_year: number | null;
+  native_place: string | null;
+  gender?: string | null;
+  ethnicity?: string | null;
+  party_join_date?: string | null;
+}
+
 export interface CentralInstitutionDetail extends CentralInstitution {
+  schema_version?: number;
+  entity_type?: "central" | "province" | "prefecture" | "county" | "subordinate";
+  sections?: { key: string; label: string; available: boolean }[];
+  children?: Partial<CentralInstitution>[];
+  leader_history?: CentralLeader[];
   history: CentralLeader[];
+  committee_stats?: CentralCommitteeStats | null;
+  committee_members?: {
+    term: number;
+    term_label: string;
+    members: CentralCommitteeMember[];
+  } | null;
+  committee_alternates?: {
+    term: number;
+    term_label: string;
+    members: CentralCommitteeMember[];
+  } | null;
 }

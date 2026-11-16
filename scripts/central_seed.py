@@ -1,4 +1,4 @@
-"""中央机构第一批种子：2022-10-16 二十大开幕至 2026-10-29。
+"""中央机构第一批种子：2022-10-23 二十大开幕至 2026-10-29。
 
 这是一版可运行的组织架构种子，优先保证层级、双主官、办公室节点和
 中央委员状态模型；个别 2026 年现任按公开报道推定，后续逐条复核。
@@ -7,177 +7,186 @@
 from __future__ import annotations
 
 TERMS = [
+    {"ordinal": 17, "label": "十七届", "start": "2007-10-22", "end": "2012-11-14"},
     {"ordinal": 18, "label": "十八届", "start": "2012-11-15", "end": "2017-10-24"},
-    {"ordinal": 19, "label": "十九届", "start": "2017-10-25", "end": "2022-10-15"},
-    {"ordinal": 20, "label": "二十届", "start": "2022-10-16", "end": "2026-10-29"},
+    {"ordinal": 19, "label": "十九届", "start": "2017-10-25", "end": "2022-10-22"},
+    {"ordinal": 20, "label": "二十届", "start": "2022-10-23", "end": "2026-10-29"},
 ]
+
+TERM_COMPOSITION = {
+    18: {"members": 205, "alternates": 171},
+    19: {"members": 204, "alternates": 172},
+    20: {"members": 205, "alternates": 171},
+}
 
 # name -> list of memberships; status: active / expelled / retired / deceased / term_ended
 MEMBERS: dict[str, list[dict]] = {
     "习近平": [
         {"term": 18, "type": "member", "start": "2012-11-15", "end": "2017-10-24", "status": "term_ended"},
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "李强": [
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "赵乐际": [
         {"term": 18, "type": "member", "start": "2012-11-15", "end": "2017-10-24", "status": "term_ended"},
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "王沪宁": [
         {"term": 18, "type": "member", "start": "2012-11-15", "end": "2017-10-24", "status": "term_ended"},
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "蔡奇": [
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "丁薛祥": [
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "李希": [
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "马兴瑞": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": "2026-10-29", "status": "expelled"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": "2026-10-29", "status": "expelled"},
     ],
     "王毅": [
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "石泰峰": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "李干杰": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "李书磊": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "陈文清": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "刘金国": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "王小洪": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "何卫东": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "张又侠": [
         {"term": 18, "type": "member", "start": "2012-11-15", "end": "2017-10-24", "status": "term_ended"},
-        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-15", "status": "term_ended"},
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 19, "type": "member", "start": "2017-10-25", "end": "2022-10-22", "status": "term_ended"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "何立峰": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "张国清": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "刘国中": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "李鸿忠": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "陈吉宁": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "陈敏尔": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "袁家军": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "黄坤明": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "尹力": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "吴政隆": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "谌贻琴": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "刘奇": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "王东峰": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "张军": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "应勇": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "王东明": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "黄晓薇": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
     "苗华": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": "2024-11-28", "status": "expelled"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": "2024-11-28", "status": "expelled"},
     ],
     "李尚福": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": "2024-06-27", "status": "expelled"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": "2024-06-27", "status": "expelled"},
     ],
     "张升民": [
-        {"term": 20, "type": "member", "start": "2022-10-16", "end": None, "status": "active"},
+        {"term": 20, "type": "member", "start": "2022-10-23", "end": None, "status": "active"},
     ],
 }
 
 # (id, parent, team, group, type, name, short, rank, level, sort, leaders)
 # leaders: (name, title, start, end, seat_type)
-D = "2022-10-16"
+D = "2022-10-23"
 S = "2023-03-12"
 
 INSTITUTIONS = [
     # ---------- 党中央 ----------
-    ("party:central_committee", None, "party", "leadership", "party_leadership", "中国共产党中央委员会", "中央委员会", "national_leader", 1, 10,
-     [("习近平", "中央委员会总书记", D, None, "principal")]),
+    ("party:central_committee", None, "party", "leadership", "party_leadership", "中国共产党中央委员会", "中央委员会", "national_leader", 1, 10, []),
+    ("party:general_secretary", "party:central_committee", "party", "leadership", "party_leadership", "中央委员会总书记", "总书记", "national_leader", 2, 10,
+     [("习近平", "总书记", D, None, "principal")]),
     ("party:politburo_standing", "party:central_committee", "party", "leadership", "party_leadership", "中央政治局常务委员会", "政治局常委会", "national_leader", 2, 11,
      [("习近平", "政治局常委", D, None, "member"), ("李强", "政治局常委", D, None, "member"),
       ("赵乐际", "政治局常委", D, None, "member"), ("王沪宁", "政治局常委", D, None, "member"),
       ("蔡奇", "政治局常委", D, None, "member"), ("丁薛祥", "政治局常委", D, None, "member"),
       ("李希", "政治局常委", D, None, "member")]),
-    ("party:politburo", "party:central_committee", "party", "leadership", "party_leadership", "中央政治局", "政治局", "national_leader", 2, 12,
+    ("party:politburo", "party:central_committee", "party", "leadership", "party_leadership", "中央政治局", "政治局", "vice_national_leader", 2, 12,
      [("习近平", "政治局委员", D, None, "member"), ("李强", "政治局委员", D, None, "member"),
       ("赵乐际", "政治局委员", D, None, "member"), ("王沪宁", "政治局委员", D, None, "member"),
       ("蔡奇", "政治局委员", D, None, "member"), ("丁薛祥", "政治局委员", D, None, "member"),
-      ("李希", "政治局委员", D, None, "member"), ("马兴瑞", "政治局委员", D, "2026-10-29", "member"),
+      ("李希", "政治局委员", D, None, "member"), ("马兴瑞", "政治局委员", D, "2026-10-28", "member"),
       ("王毅", "政治局委员", D, None, "member"), ("石泰峰", "政治局委员", D, None, "member"),
       ("李干杰", "政治局委员", D, None, "member"), ("李书磊", "政治局委员", D, None, "member"),
-      ("李鸿忠", "政治局委员", D, None, "member"), ("何卫东", "政治局委员", D, None, "member"),
-      ("何立峰", "政治局委员", D, None, "member"), ("张又侠", "政治局委员", D, None, "member"),
+      ("李鸿忠", "政治局委员", D, None, "member"), ("何卫东", "政治局委员", D, "2025-10-22", "member"),
+      ("何立峰", "政治局委员", D, None, "member"), ("张又侠", "政治局委员", D, "2026-10-28", "member"),
       ("张国清", "政治局委员", D, None, "member"), ("陈文清", "政治局委员", D, None, "member"),
       ("陈吉宁", "政治局委员", D, None, "member"), ("陈敏尔", "政治局委员", D, None, "member"),
       ("袁家军", "政治局委员", D, None, "member"), ("黄坤明", "政治局委员", D, None, "member"),
-      ("刘国中", "政治局委员", D, None, "member"), ("尹力", "政治局委员", D, None, "member")]),
-    ("party:secretariat", "party:politburo_standing", "party", "leadership", "party_leadership", "中央书记处", "书记处", "national_leader", 3, 13,
+      ("刘国中", "政治局委员", D, None, "member"), ("尹力", "政治局委员", D, None, "member"),
+      ("张升民", "政治局委员", "2026-10-29", None, "member")]),
+    ("party:secretariat", "party:politburo_standing", "party", "leadership", "party_leadership", "中央书记处", "书记处", "vice_national_leader", 3, 13,
      [("蔡奇", "书记处书记", D, None, "member"), ("石泰峰", "书记处书记", D, None, "member"),
       ("李干杰", "书记处书记", D, None, "member"), ("李书磊", "书记处书记", D, None, "member"),
       ("陈文清", "书记处书记", D, None, "member"), ("刘金国", "书记处书记", D, None, "member"),
       ("王小洪", "书记处书记", D, None, "member")]),
-    ("party:discipline", "party:central_committee", "party", "leadership", "party_leadership", "中央纪律检查委员会", "中央纪委", "national_leader", 3, 14,
+    ("party:discipline", "party:central_committee", "party", "leadership", "party_leadership", "中央纪律检查委员会", "中央纪委", "vice_national_leader", 3, 14,
      [("李希", "书记", D, None, "principal")]),
     ("party:general_office", "party:agencies", "party", "agency", "party_agency", "中央办公厅", "中办", "ministerial", 4, 20,
-     [("蔡奇", "主任", D, None, "principal")]),
+     [("蔡奇", "主任", "2023-03-12", None, "principal")]),
     ("party:organization", "party:agencies", "party", "agency", "party_agency", "中央组织部", "中组部", "ministerial", 4, 21,
-     [("李干杰", "部长", D, None, "principal")]),
+     [("李干杰", "部长", "2023-03-12", None, "principal")]),
     ("party:propaganda", "party:agencies", "party", "agency", "party_agency", "中央宣传部", "中宣部", "ministerial", 4, 22,
      [("李书磊", "部长", D, None, "principal")]),
     ("party:united_front", "party:agencies", "party", "agency", "party_agency", "中央统一战线工作部", "统战部", "ministerial", 4, 23,
@@ -193,7 +202,7 @@ INSTITUTIONS = [
     ("party:hongkong", "party:agencies", "party", "agency", "party_agency", "中央港澳工作办公室", "中央港澳办", "ministerial", 4, 28,
      [("夏宝龙", "主任", D, None, "principal")]),
     ("party:financial", "party:agencies", "party", "agency", "party_agency", "中央金融委员会办公室", "中央金融办", "ministerial", 4, 29,
-     [("何立峰", "主任", D, None, "principal")]),
+     [("何立峰", "主任", "2023-03-12", None, "principal")]),
     ("party:institution", "party:agencies", "party", "agency", "party_agency", "中央机构编制委员会办公室", "中央编办", "ministerial", 4, 30,
      [("李小新", "主任", D, None, "principal")]),
     ("party:school", "party:affiliates", "party", "affiliate", "party_affiliate", "中共中央党校（国家行政学院）", "中央党校", "ministerial", 4, 31,
@@ -368,7 +377,7 @@ INSTITUTIONS = [
     ("other:military", None, "other", "military", "military_leadership", "中央军事委员会", "中央军委", "national_leader", 1, 130,
      [("习近平", "主席", D, None, "principal")]),
     ("other:military_vice", "other:military", "other", "military", "military_leadership", "中央军委副主席", "军委副主席", "vice_national_leader", 2, 131,
-     [("张又侠", "副主席", D, None, "member"), ("何卫东", "副主席", D, None, "member")]),
+     [("张又侠", "副主席", D, "2026-10-28", "member"), ("何卫东", "副主席", D, "2025-10-22", "member")]),
     ("other:military_members", "other:military", "other", "military", "military_leadership", "中央军委委员", "军委委员", "vice_national_leader", 2, 132,
      [("刘振立", "委员", D, None, "member"), ("苗华", "委员", D, None, "member"),
       ("张升民", "委员", D, None, "member")]),
@@ -586,7 +595,7 @@ INSTITUTIONS += [
 
 # 二十届中央政治局常委/委员/书记处书记，以及主要任职
 PARTY_ROLES = {
-    "习近平": ["politburo_standing"],
+    "习近平": ["politburo_standing", "military_chair"],
     "李强": ["politburo_standing"],
     "赵乐际": ["politburo_standing"],
     "王沪宁": ["politburo_standing"],
@@ -599,9 +608,9 @@ PARTY_ROLES = {
     "李干杰": ["politburo_member", "secretariat_member"],
     "李书磊": ["politburo_member", "secretariat_member"],
     "李鸿忠": ["politburo_member"],
-    "何卫东": ["politburo_member"],
+    "何卫东": ["politburo_member", "military_vice_chair"],
     "何立峰": ["politburo_member"],
-    "张又侠": ["politburo_member"],
+    "张又侠": ["politburo_member", "military_vice_chair"],
     "张国清": ["politburo_member"],
     "陈文清": ["politburo_member", "secretariat_member"],
     "陈吉宁": ["politburo_member"],
@@ -612,6 +621,9 @@ PARTY_ROLES = {
     "尹力": ["politburo_member"],
     "刘金国": ["secretariat_member"],
     "王小洪": ["secretariat_member"],
+    "刘振立": ["military_member"],
+    "苗华": ["military_member"],
+    "张升民": ["military_member", "politburo_member"],
 }
 
 PRIMARY_POSTS = {

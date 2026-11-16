@@ -1,6 +1,7 @@
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import { defineStore } from "pinia";
 import { getCentralCommittee, getCentralInstitution, getCentralOrg, getCentralOverview } from "@/api/client";
+import { useTimelineStore } from "./timeline";
 import type {
   CentralCommittee,
   CentralInstitution,
@@ -11,12 +12,14 @@ import type {
 } from "@/types";
 
 export const useCentralStore = defineStore("central", () => {
+  const timeline = useTimelineStore();
   const overview = ref<CentralOverview | null>(null);
   const org = ref<CentralOrgResponse | null>(null);
   const selectedTeam = ref<string | null>(null);
   const selectedInstitution = ref<CentralInstitution | null>(null);
   const selectedDetail = ref<CentralInstitutionDetail | null>(null);
   const loading = ref(false);
+  const detailLoading = ref(false);
   const error = ref<string | null>(null);
   const committeeCache = ref<Record<string, CentralCommittee | null>>({});
   const partyRoleCache = ref<Record<string, CentralPartyRole[]>>({});
@@ -48,6 +51,48 @@ export const useCentralStore = defineStore("central", () => {
     }
   }
 
+  async function refresh(date: string): Promise<void> {
+    if (!selectedTeam.value) return;
+    const currentId = selectedInstitution.value?.id ?? null;
+    loading.value = true;
+    error.value = null;
+    try {
+      const [nextOrg] = await Promise.all([
+        getCentralOrg(selectedTeam.value, date),
+        loadOverview(date),
+      ]);
+      org.value = nextOrg;
+      loadedDate.value = date;
+      if (currentId) {
+        const next = nextOrg.institutions.find((item) => item.id === currentId) ?? null;
+        if (next) {
+          await selectInstitution(next, date);
+        } else {
+          selectedInstitution.value = null;
+          selectedDetail.value = null;
+        }
+      }
+    } catch (caught) {
+      error.value = caught instanceof Error ? caught.message : "中央机构加载失败";
+    } finally {
+      loading.value = false;
+    }
+  }
+
+  let refreshTimer: number | undefined;
+
+  // Single reactive bridge: every central board follows the global timeline.
+  watch(
+    () => timeline.currentDate,
+    (date) => {
+      if (refreshTimer) window.clearTimeout(refreshTimer);
+      refreshTimer = window.setTimeout(() => {
+        refreshTimer = undefined;
+        void refresh(date);
+      }, 180);
+    },
+  );
+
   function close(): void {
     selectedTeam.value = null;
     selectedInstitution.value = null;
@@ -59,10 +104,13 @@ export const useCentralStore = defineStore("central", () => {
     selectedInstitution.value = inst;
     selectedDetail.value = null;
     if (!inst) return;
+    detailLoading.value = true;
     try {
       selectedDetail.value = await getCentralInstitution(inst.id, date);
     } catch {
       selectedDetail.value = null;
+    } finally {
+      detailLoading.value = false;
     }
   }
 
@@ -95,11 +143,13 @@ export const useCentralStore = defineStore("central", () => {
     selectedInstitution,
     selectedDetail,
     loading,
+    detailLoading,
     error,
     loadedDate,
     isOpen,
     loadOverview,
     openTeam,
+    refresh,
     close,
     selectInstitution,
     loadCommittee,

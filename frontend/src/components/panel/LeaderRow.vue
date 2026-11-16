@@ -11,6 +11,7 @@ const color = computed(() => categoryColor(props.member.category));
 const progress = computed(() => Math.min(100, (props.member.duration_days / 3650) * 100));
 const snapshotDuration = computed(() => props.member.start_precision === "snapshot" && props.member.duration_days > 0);
 const durationText = computed(() => {
+  if (props.member.is_future) return "—";
   if (props.member.start_precision === "snapshot" && props.member.duration_days <= 0) return "—";
   if (snapshotDuration.value) return `约 ${formatDuration(props.member.duration_days)}`;
   return formatDuration(props.member.duration_days);
@@ -86,6 +87,12 @@ const durationText = computed(() => {
           <span v-else-if="member.start_precision === 'snapshot'" class="shrink-0 text-gold">现任 · 起始待考</span>
           <span v-else class="shrink-0 tabular-nums">
             任职 {{ formatMonth(member.start_date) }} — {{ member.end_date ? formatMonth(member.end_date) : "至今" }}
+          </span>
+          <span
+            v-if="member.is_future"
+            class="shrink-0 whitespace-nowrap rounded border border-dashed border-gold/35 px-1 py-px text-[8px] text-gold/80"
+          >
+            尚未到任
           </span>
         </div>
       </div>

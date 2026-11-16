@@ -3,7 +3,12 @@ import { computed } from "vue";
 import PartyRoleBadge from "./PartyRoleBadge.vue";
 import CentralCommitteeBadge from "./CentralCommitteeBadge.vue";
 import { showCentralCommittee, visiblePartyRoles } from "@/utils/partyRoles";
+import { useAppStore } from "@/stores/app";
+import { useCentralStore } from "@/stores/central";
 import type { CentralInstitution } from "@/types";
+
+const app = useAppStore();
+const central = useCentralStore();
 
 const props = defineProps<{
   node: CentralInstitution;
@@ -20,19 +25,12 @@ const isCollective = computed(() =>
   ["party:politburo_standing", "party:politburo", "party:secretariat"].includes(props.node.id),
 );
 function fullTitle(title: string): string {
+  if (props.node.id === "party:general_secretary") return props.node.name;
   const isDepartment = ["ministry", "agency", "service", "institution", "special", "administration", "office", "public_institution", "admin_bureau", "outpost"].includes(props.node.institution_type);
   return isDepartment && !title.startsWith(props.node.name) ? `${props.node.name}${title}` : title;
 }
 function rankLabel(value: string): string {
-  const labels: Record<string, string> = {
-    national_leader: "正国级",
-    vice_national_leader: "副国级",
-    ministerial: "正部级",
-    vice_ministerial: "副部级",
-    departmental: "正地厅级",
-    bureau: "局级",
-  };
-  return labels[value] ?? value;
+  return app.vocabulary?.ranks[value] ?? value;
 }
 </script>
 
@@ -41,7 +39,7 @@ function rankLabel(value: string): string {
     <button
       v-if="!isGroup"
       class="org-card"
-      :class="{ 'org-card-collective': isCollective }"
+      :class="{ 'org-card-collective': isCollective, 'org-card-selected': central.selectedInstitution?.id === node.id }"
       @click="emit('select', node)"
     >
       <div class="org-card-title">{{ node.short_name || node.name }}</div>
@@ -64,6 +62,7 @@ function rankLabel(value: string): string {
           <div v-else class="text-[8px] text-paper-faint/60">{{ fullTitle(leader.title) }}</div>
         </div>
       </div>
+      <div v-else-if="node.id === 'party:central_committee'" class="mt-1 text-[8px] text-paper-faint/60">集体领导机构 · 总书记单列</div>
       <div v-else class="mt-1 text-[8px] text-paper-faint/60">待收录</div>
     </button>
 
@@ -112,6 +111,11 @@ function rankLabel(value: string): string {
   width: 180px;
   border-color: rgba(200, 73, 47, 0.42);
   background: rgba(200, 73, 47, 0.06);
+}
+.org-card-selected {
+  border-color: rgba(176, 138, 74, 0.9);
+  background: rgba(176, 138, 74, 0.14);
+  box-shadow: 0 0 0 1px rgba(176, 138, 74, 0.25);
 }
 .org-card-title {
   font-size: 10px;
